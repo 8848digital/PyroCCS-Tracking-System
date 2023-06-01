@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include pyroccs_tracking_system *.css
+recursive-include pyroccs_tracking_system *.csv
+recursive-include pyroccs_tracking_system *.html
+recursive-include pyroccs_tracking_system *.ico
+recursive-include pyroccs_tracking_system *.js
+recursive-include pyroccs_tracking_system *.json
+recursive-include pyroccs_tracking_system *.md
+recursive-include pyroccs_tracking_system *.png
+recursive-include pyroccs_tracking_system *.py
+recursive-include pyroccs_tracking_system *.svg
+recursive-include pyroccs_tracking_system *.txt
+recursive-exclude pyroccs_tracking_system *.pyc
