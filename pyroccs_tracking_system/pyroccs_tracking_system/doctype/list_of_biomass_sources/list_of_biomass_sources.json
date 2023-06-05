@@ -1,0 +1,97 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:BIOMASS-{####}",
+ "creation": "2023-06-01 17:57:15.189973",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "unique_name_of_biomass",
+  "categorization_of_biomass",
+  "species_of_biomass",
+  "biomass_modification_equipment_1",
+  "biomass_modification_equipment_2",
+  "accreditation",
+  "picture_of_biomass",
+  "upload_documentation",
+  "comments_on_biomass"
+ ],
+ "fields": [
+  {
+   "fieldname": "unique_name_of_biomass",
+   "fieldtype": "Data",
+   "label": "Unique Name of Biomass",
+   "unique": 1
+  },
+  {
+   "fieldname": "categorization_of_biomass",
+   "fieldtype": "Select",
+   "label": "Categorization of Biomass",
+   "options": "Agricultural Residue\nForest Waste\nMunicipal Waste\nIndustrial Waste\nInvasive Species"
+  },
+  {
+   "fieldname": "species_of_biomass",
+   "fieldtype": "Select",
+   "label": "Species of Biomass",
+   "options": "Paddy/Rice Straw\nCoconut Shell\nCashew Shell\nBamboo\nWood A\nWood B\nWood C\nWood D\nMore to be identified"
+  },
+  {
+   "fieldname": "biomass_modification_equipment_1",
+   "fieldtype": "Data",
+   "label": "Biomass Modification Equipment 1"
+  },
+  {
+   "fieldname": "biomass_modification_equipment_2",
+   "fieldtype": "Data",
+   "label": "Biomass Modification Equipment 2"
+  },
+  {
+   "fieldname": "accreditation",
+   "fieldtype": "Data",
+   "label": "Accreditation"
+  },
+  {
+   "fieldname": "picture_of_biomass",
+   "fieldtype": "Attach Image",
+   "label": "Picture of Biomass"
+  },
+  {
+   "description": "Can use attach from the sidebar.",
+   "fieldname": "upload_documentation",
+   "fieldtype": "Attach",
+   "label": "Upload Documentation"
+  },
+  {
+   "fieldname": "comments_on_biomass",
+   "fieldtype": "Text",
+   "label": "Comments on Biomass"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-06-01 17:57:15.189973",
+ "modified_by": "Administrator",
+ "module": "PyroCCS Tracking System",
+ "name": "List of Biomass Sources",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,81 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:PYROCCS-{plant_model_name}-{plant_country_of_manufacturing}-{short_name_manufacturer}-{YY}-{####}",
+ "creation": "2023-06-05 13:41:02.930091",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "plant_model_name",
+  "plant_manufacturer",
+  "short_name_manufacturer",
+  "plant_country_of_manufacturing",
+  "picture_of_plant_on_dispatch",
+  "accreditation"
+ ],
+ "fields": [
+  {
+   "fieldname": "plant_model_name",
+   "fieldtype": "Link",
+   "label": "Plant Model Name",
+   "options": "List of PyroCCS Plant Models"
+  },
+  {
+   "fieldname": "plant_manufacturer",
+   "fieldtype": "Link",
+   "label": "Plant Manufacturer",
+   "options": "List of Plant Manufacturers"
+  },
+  {
+   "fieldname": "plant_country_of_manufacturing",
+   "fieldtype": "Select",
+   "label": "Plant Country of Manufacturing",
+   "options": "IND\nCN"
+  },
+  {
+   "fieldname": "picture_of_plant_on_dispatch",
+   "fieldtype": "Attach Image",
+   "label": "Picture of Plant on Dispatch"
+  },
+  {
+   "fieldname": "accreditation",
+   "fieldtype": "Link",
+   "label": "Accreditation/Certificate/Permit",
+   "options": "List of Accreditations"
+  },
+  {
+   "fetch_from": "plant_manufacturer.short_name_manufacturer",
+   "fieldname": "short_name_manufacturer",
+   "fieldtype": "Data",
+   "label": "Short Name Manufacturer",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-06-05 13:52:11.509692",
+ "modified_by": "Administrator",
+ "module": "PyroCCS Tracking System",
+ "name": "List of Manufactured Plants",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,90 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:ONEXEMISSION-{####}",
+ "creation": "2023-06-02 11:57:06.903484",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "name_of_one_time_emission",
+  "description_of_one_time_emission",
+  "emissions_category",
+  "from_renewable_resources",
+  "amount",
+  "unit",
+  "co2_conversion_rate",
+  "total_co2_equivalent"
+ ],
+ "fields": [
+  {
+   "fieldname": "name_of_one_time_emission",
+   "fieldtype": "Data",
+   "label": "Name of One-Time Emission"
+  },
+  {
+   "fieldname": "description_of_one_time_emission",
+   "fieldtype": "Text",
+   "label": "Description of One-Time Emission"
+  },
+  {
+   "fieldname": "emissions_category",
+   "fieldtype": "Select",
+   "label": "Emissions Category",
+   "options": "Equipment\nVehicles & Transport\nInfrastructure\nMain Plant\nPlant Auxilliary Equipment\nRepairs & Spare Parts"
+  },
+  {
+   "default": "0",
+   "fieldname": "from_renewable_resources",
+   "fieldtype": "Check",
+   "label": "From Renewable/Sustainable Resources"
+  },
+  {
+   "fieldname": "amount",
+   "fieldtype": "Float",
+   "label": "Amount"
+  },
+  {
+   "fieldname": "unit",
+   "fieldtype": "Select",
+   "label": "Unit",
+   "options": "kWh\nliters\ngallons\nm3\ntons\nkg\nUnit/Piece"
+  },
+  {
+   "fieldname": "co2_conversion_rate",
+   "fieldtype": "Int",
+   "label": "CO2 Conversion Rate"
+  },
+  {
+   "fieldname": "total_co2_equivalent",
+   "fieldtype": "Data",
+   "label": "Total CO2 Equivalent"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-06-02 12:17:12.588218",
+ "modified_by": "Administrator",
+ "module": "PyroCCS Tracking System",
+ "name": "List of One-Time Emissions",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
