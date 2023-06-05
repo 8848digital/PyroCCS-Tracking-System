@@ -1,0 +1,247 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:DEL-{plant_number}-{YY}-{####}",
+ "creation": "2023-06-01 14:53:28.735833",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "plant_number",
+  "supplier_name",
+  "biomass_supply",
+  "supply_source",
+  "distance_to_plant",
+  "transportation_type",
+  "vehicle_trailer_details_section",
+  "name_of_trailer",
+  "name_of_vehicle",
+  "section_break_i7wh0",
+  "driver_name",
+  "relevant_distance_to_biomass_source",
+  "type_of_biomass",
+  "picture_of_biomass",
+  "trailer_weight_in",
+  "trailer_weight_out",
+  "total_weight_delivered_biomass",
+  "moisture_measurement_section",
+  "moisture_measurement_1",
+  "moisture_measurement_2",
+  "moisture_measurement_3",
+  "moisture_measurement_4",
+  "moisture_measurement_5",
+  "moisture_measurement_6",
+  "average_moisture",
+  "moisture_too_high",
+  "alert",
+  "section_break_hetcd",
+  "biomass_comments",
+  "information_display_section",
+  "available_biomass",
+  "used_biomass",
+  "unused_biomass"
+ ],
+ "fields": [
+  {
+   "fieldname": "plant_number",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Plant Number",
+   "reqd": 1
+  },
+  {
+   "fieldname": "supplier_name",
+   "fieldtype": "Link",
+   "label": "Supplier Name",
+   "options": "List of Biomass Suppliers"
+  },
+  {
+   "fieldname": "biomass_supply",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Biomass Supply",
+   "options": "Supply at Plant\nSelect Source",
+   "reqd": 1
+  },
+  {
+   "fieldname": "supply_source",
+   "fieldtype": "Link",
+   "hidden": 1,
+   "label": "Supply Source",
+   "options": "List of Biomass Supply Locations"
+  },
+  {
+   "fieldname": "distance_to_plant",
+   "fieldtype": "Data",
+   "label": "Distance to Plant"
+  },
+  {
+   "fieldname": "transportation_type",
+   "fieldtype": "Select",
+   "label": "Transportation Type",
+   "options": "Vehicle with Trailer\nManual"
+  },
+  {
+   "fieldname": "vehicle_trailer_details_section",
+   "fieldtype": "Section Break",
+   "label": "Vehicle & Trailer Details"
+  },
+  {
+   "fieldname": "name_of_trailer",
+   "fieldtype": "Data",
+   "label": " Name of Trailer"
+  },
+  {
+   "fieldname": "name_of_vehicle",
+   "fieldtype": "Data",
+   "label": "Name of Vehicle"
+  },
+  {
+   "fieldname": "section_break_i7wh0",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "driver_name",
+   "fieldtype": "Data",
+   "label": "Driver Name"
+  },
+  {
+   "fieldname": "relevant_distance_to_biomass_source",
+   "fieldtype": "Data",
+   "label": "Relevant Distance to Biomass Source"
+  },
+  {
+   "fieldname": "type_of_biomass",
+   "fieldtype": "Link",
+   "label": "Type of Biomass",
+   "options": "List of Biomass Sources"
+  },
+  {
+   "fieldname": "picture_of_biomass",
+   "fieldtype": "Attach",
+   "label": "Picture of Biomass"
+  },
+  {
+   "fieldname": "trailer_weight_in",
+   "fieldtype": "Data",
+   "label": "Trailer Weight In"
+  },
+  {
+   "fieldname": "trailer_weight_out",
+   "fieldtype": "Data",
+   "label": "Trailer Weight Out"
+  },
+  {
+   "fieldname": "total_weight_delivered_biomass",
+   "fieldtype": "Data",
+   "label": "Total Weight Delivered Biomass"
+  },
+  {
+   "fieldname": "moisture_measurement_section",
+   "fieldtype": "Section Break",
+   "label": "Moisture Measurement"
+  },
+  {
+   "fieldname": "moisture_measurement_1",
+   "fieldtype": "Percent",
+   "label": "Moisture Measurement 1"
+  },
+  {
+   "fieldname": "moisture_measurement_2",
+   "fieldtype": "Percent",
+   "label": "Moisture Measurement 2"
+  },
+  {
+   "fieldname": "moisture_measurement_3",
+   "fieldtype": "Percent",
+   "label": "Moisture Measurement 3"
+  },
+  {
+   "fieldname": "moisture_measurement_4",
+   "fieldtype": "Percent",
+   "label": "Moisture Measurement 4"
+  },
+  {
+   "fieldname": "moisture_measurement_5",
+   "fieldtype": "Percent",
+   "label": "Moisture Measurement 5"
+  },
+  {
+   "fieldname": "moisture_measurement_6",
+   "fieldtype": "Percent",
+   "label": "Moisture Measurement 6"
+  },
+  {
+   "fieldname": "average_moisture",
+   "fieldtype": "Data",
+   "label": "Average Moisture"
+  },
+  {
+   "default": "0",
+   "fieldname": "moisture_too_high",
+   "fieldtype": "Check",
+   "label": "Moisture Too High"
+  },
+  {
+   "fieldname": "alert",
+   "fieldtype": "Small Text",
+   "label": "Alert",
+   "options": "Repeat and Update Moisture Measurement\nafter drying the Biomass"
+  },
+  {
+   "fieldname": "section_break_hetcd",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "biomass_comments",
+   "fieldtype": "Text",
+   "label": "Biomass Comments"
+  },
+  {
+   "fieldname": "information_display_section",
+   "fieldtype": "Section Break",
+   "label": "Information Display"
+  },
+  {
+   "fieldname": "available_biomass",
+   "fieldtype": "Data",
+   "label": "Available Biomass"
+  },
+  {
+   "fieldname": "used_biomass",
+   "fieldtype": "Data",
+   "label": "Used Biomass "
+  },
+  {
+   "fieldname": "unused_biomass",
+   "fieldtype": "Data",
+   "label": "Unused Biomass"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-06-01 18:05:15.009388",
+ "modified_by": "Administrator",
+ "module": "PyroCCS Tracking System",
+ "name": "Supply of Biomass",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
