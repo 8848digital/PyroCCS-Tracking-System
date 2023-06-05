@@ -1,0 +1,61 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-06-02 15:57:31.719913",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "assigned_plant_status",
+  "type_of_fuel_source",
+  "amount_of_fuel_used",
+  "documentation_upload"
+ ],
+ "fields": [
+  {
+   "fieldname": "assigned_plant_status",
+   "fieldtype": "Data",
+   "label": "Assigned Plant Status"
+  },
+  {
+   "fieldname": "type_of_fuel_source",
+   "fieldtype": "Data",
+   "label": "Type of Fuel Source"
+  },
+  {
+   "fieldname": "amount_of_fuel_used",
+   "fieldtype": "Float",
+   "label": "Weight/Amount of Fuel Used"
+  },
+  {
+   "fieldname": "documentation_upload",
+   "fieldtype": "Attach",
+   "label": "Documentation Upload"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-06-02 15:59:47.269958",
+ "modified_by": "Administrator",
+ "module": "PyroCCS Tracking System",
+ "name": "Fuel Consumption",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

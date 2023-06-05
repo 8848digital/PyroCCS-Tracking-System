@@ -1,0 +1,52 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-06-02 11:46:12.861475",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "when",
+  "reactor_temperature",
+  "date_and_time_of_measurement",
+  "picture_of_thermostat"
+ ],
+ "fields": [
+  {
+   "fieldname": "when",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "When",
+   "options": "DURING\nAFTER"
+  },
+  {
+   "fieldname": "reactor_temperature",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Reactor Temperature"
+  },
+  {
+   "fieldname": "date_and_time_of_measurement",
+   "fieldtype": "Datetime",
+   "in_list_view": 1,
+   "label": "Date & Time of Measurement"
+  },
+  {
+   "fieldname": "picture_of_thermostat",
+   "fieldtype": "Attach Image",
+   "label": "Picture of Thermostat"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-06-02 11:47:56.435465",
+ "modified_by": "Administrator",
+ "module": "PyroCCS Tracking System",
+ "name": "List of Reactor Temperatures",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

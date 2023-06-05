@@ -1,0 +1,253 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:unique_identifier",
+ "creation": "2023-06-01 17:22:45.812411",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "unique_identifier",
+  "plant_id",
+  "plant_status",
+  "column_break_whdir",
+  "pyrolysis_status",
+  "select_pot",
+  "available_biomass",
+  "section_break_mczjk",
+  "weight_of_pot_in_kg",
+  "weight_of_sand_in_kg",
+  "total_filled_biomass",
+  "column_break_0whg5",
+  "select_heating_chamber",
+  "pyrolysis_start",
+  "amended_from",
+  "reactor_temperature_during_pyrolysis_section",
+  "reactor_temperature_during_pyrolysis",
+  "after_pyrolysis_section",
+  "pyrolysis_end",
+  "pyrolysis_duration",
+  "pyrolysis_gas_extracted_prior_to_emptying",
+  "weight_of_pot_out",
+  "pot_emptied_time",
+  "weight_of_sand_out_in_kg",
+  "pyrolysis_incomplete",
+  "column_break_ktfyl",
+  "reasons_for_incomplete_pyrolysis",
+  "type_of_biochar",
+  "unique_batch_identification_number",
+  "picture_of_biochar",
+  "unique_sample_number",
+  "pot_lid_cleaned",
+  "slag_removed_from_pot",
+  "comments_from_shiftleader"
+ ],
+ "fields": [
+  {
+   "fieldname": "unique_identifier",
+   "fieldtype": "Data",
+   "label": "Unique Identifier",
+   "unique": 1
+  },
+  {
+   "fieldname": "plant_id",
+   "fieldtype": "Data",
+   "label": "Plant ID"
+  },
+  {
+   "fieldname": "plant_status",
+   "fieldtype": "Data",
+   "label": "Plant Status"
+  },
+  {
+   "fieldname": "pyrolysis_status",
+   "fieldtype": "Select",
+   "label": "Pyrolysis Status",
+   "options": "\nUnder Preparation\nRunning\nCompleted\nIncomplete"
+  },
+  {
+   "fieldname": "select_pot",
+   "fieldtype": "Data",
+   "label": "Select Pot"
+  },
+  {
+   "fieldname": "available_biomass",
+   "fieldtype": "Data",
+   "label": "Available Biomass"
+  },
+  {
+   "fieldname": "column_break_whdir",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_mczjk",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "weight_of_pot_in_kg",
+   "fieldtype": "Float",
+   "label": "Weight of Pot In Kg"
+  },
+  {
+   "fieldname": "weight_of_sand_in_kg",
+   "fieldtype": "Float",
+   "label": "Weight of Sand In Kg"
+  },
+  {
+   "fieldname": "total_filled_biomass",
+   "fieldtype": "Data",
+   "label": "Total Filled Biomass"
+  },
+  {
+   "fieldname": "select_heating_chamber",
+   "fieldtype": "Data",
+   "label": "Select Heating Chamber"
+  },
+  {
+   "fieldname": "pyrolysis_start",
+   "fieldtype": "Datetime",
+   "label": "Pyrolysis Start"
+  },
+  {
+   "fieldname": "column_break_0whg5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Pyrolysis Process",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "reactor_temperature_during_pyrolysis",
+   "fieldtype": "Table",
+   "label": "Reactor Temperature During Pyrolysis",
+   "options": "List of Reactor Temperatures"
+  },
+  {
+   "fieldname": "after_pyrolysis_section",
+   "fieldtype": "Section Break",
+   "label": "After Pyrolysis"
+  },
+  {
+   "fieldname": "pyrolysis_end",
+   "fieldtype": "Datetime",
+   "label": "Pyrolysis End"
+  },
+  {
+   "fieldname": "pyrolysis_duration",
+   "fieldtype": "Duration",
+   "label": "Pyrolysis Duration"
+  },
+  {
+   "default": "0",
+   "fieldname": "pyrolysis_gas_extracted_prior_to_emptying",
+   "fieldtype": "Check",
+   "label": "Pyrolysis Gas Extracted Prior to Emptying"
+  },
+  {
+   "fieldname": "weight_of_pot_out",
+   "fieldtype": "Float",
+   "label": "Weight of Pot Out"
+  },
+  {
+   "fieldname": "pot_emptied_time",
+   "fieldtype": "Datetime",
+   "label": "Pot Emptied Time"
+  },
+  {
+   "fieldname": "weight_of_sand_out_in_kg",
+   "fieldtype": "Float",
+   "label": "Weight of Sand Out in Kg"
+  },
+  {
+   "default": "0",
+   "fieldname": "pyrolysis_incomplete",
+   "fieldtype": "Check",
+   "label": "Pyrolysis Incomplete"
+  },
+  {
+   "depends_on": "eval: doc.pyrolysis_incomplete == true",
+   "fieldname": "reasons_for_incomplete_pyrolysis",
+   "fieldtype": "Small Text",
+   "label": "Reasons for Incomplete Pyrolysis",
+   "mandatory_depends_on": "eval: doc.pyrolysis_incomplete == true"
+  },
+  {
+   "fieldname": "reactor_temperature_during_pyrolysis_section",
+   "fieldtype": "Section Break",
+   "label": "Reactor Temperature During Pyrolysis"
+  },
+  {
+   "fieldname": "column_break_ktfyl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "type_of_biochar",
+   "fieldtype": "Data",
+   "label": "Type of Biochar"
+  },
+  {
+   "fieldname": "unique_batch_identification_number",
+   "fieldtype": "Data",
+   "label": "Unique Batch Identification Number"
+  },
+  {
+   "fieldname": "picture_of_biochar",
+   "fieldtype": "Attach Image",
+   "label": "Picture of Biochar"
+  },
+  {
+   "fieldname": "unique_sample_number",
+   "fieldtype": "Data",
+   "label": "Unique Sample Number"
+  },
+  {
+   "default": "0",
+   "fieldname": "pot_lid_cleaned",
+   "fieldtype": "Check",
+   "label": "Pot Lid Cleaned"
+  },
+  {
+   "default": "0",
+   "fieldname": "slag_removed_from_pot",
+   "fieldtype": "Check",
+   "label": "Slag Removed from Pot"
+  },
+  {
+   "fieldname": "comments_from_shiftleader",
+   "fieldtype": "Small Text",
+   "label": "Comments from Shiftleader"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2023-06-02 12:58:51.717078",
+ "modified_by": "Administrator",
+ "module": "PyroCCS Tracking System",
+ "name": "Pyrolysis Process",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
