@@ -1,0 +1,60 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-06-06 11:30:54.898211",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "pyrolysis_unique_identifier",
+  "pyrolysis_status",
+  "pyrolysis_duration",
+  "pyrolysis_complete_date",
+  "weight_of_biomass_in",
+  "weight_of_biochar_out"
+ ],
+ "fields": [
+  {
+   "fieldname": "pyrolysis_unique_identifier",
+   "fieldtype": "Data",
+   "label": "Pyrolysis Unique Identifier"
+  },
+  {
+   "fieldname": "pyrolysis_status",
+   "fieldtype": "Data",
+   "label": "Pyrolysis Status"
+  },
+  {
+   "fieldname": "pyrolysis_duration",
+   "fieldtype": "Data",
+   "label": "Pyrolysis Duration"
+  },
+  {
+   "fieldname": "pyrolysis_complete_date",
+   "fieldtype": "Data",
+   "label": "Pyrolysis Complete Date"
+  },
+  {
+   "fieldname": "weight_of_biomass_in",
+   "fieldtype": "Float",
+   "label": "Weight of Biomass In"
+  },
+  {
+   "fieldname": "weight_of_biochar_out",
+   "fieldtype": "Float",
+   "label": "Weight of Biochar Out"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-06-06 11:30:54.898211",
+ "modified_by": "Administrator",
+ "module": "PyroCCS Tracking System",
+ "name": "Pyrolysis Batches",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
