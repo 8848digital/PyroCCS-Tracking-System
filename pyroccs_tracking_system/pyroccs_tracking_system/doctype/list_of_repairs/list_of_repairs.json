@@ -1,0 +1,69 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "REPAIR - .####",
+ "creation": "2023-06-06 12:35:14.137597",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "short_description_of_repair",
+  "full_elaboration_on_repair",
+  "relevant_one_time_carbon_emissions",
+  "pictures_of_repair",
+  "upload_documentation"
+ ],
+ "fields": [
+  {
+   "fieldname": "short_description_of_repair",
+   "fieldtype": "Data",
+   "label": "Short Description of Repair"
+  },
+  {
+   "fieldname": "full_elaboration_on_repair",
+   "fieldtype": "Small Text",
+   "label": "Full Elaboration on Repair"
+  },
+  {
+   "fieldname": "relevant_one_time_carbon_emissions",
+   "fieldtype": "Data",
+   "label": "Relevant One_Time Carbon Emissions"
+  },
+  {
+   "fieldname": "pictures_of_repair",
+   "fieldtype": "Attach Image",
+   "label": "Pictures of Repair"
+  },
+  {
+   "fieldname": "upload_documentation",
+   "fieldtype": "Attach",
+   "label": "Upload Documentation"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-06-06 12:35:14.137597",
+ "modified_by": "Administrator",
+ "module": "PyroCCS Tracking System",
+ "name": "List of Repairs",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

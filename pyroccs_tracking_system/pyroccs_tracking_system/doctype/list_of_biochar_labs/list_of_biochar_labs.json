@@ -1,0 +1,76 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "LAB-.####",
+ "creation": "2023-06-06 13:13:46.970816",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "name_companyowner",
+  "name_contact_person",
+  "types_of_testing_available",
+  "address",
+  "contact_details",
+  "lab_documentation"
+ ],
+ "fields": [
+  {
+   "fieldname": "name_companyowner",
+   "fieldtype": "Data",
+   "label": "Name Company/Owner"
+  },
+  {
+   "fieldname": "name_contact_person",
+   "fieldtype": "Data",
+   "label": "Name Contact Person"
+  },
+  {
+   "fieldname": "types_of_testing_available",
+   "fieldtype": "Select",
+   "label": "Types of Testing Available",
+   "options": "EBC Simple\nEBC Advanced\nMore to be determined"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Small Text",
+   "label": "Address"
+  },
+  {
+   "fieldname": "contact_details",
+   "fieldtype": "Small Text",
+   "label": "Contact Details"
+  },
+  {
+   "fieldname": "lab_documentation",
+   "fieldtype": "Attach",
+   "label": "Lab Documentation"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-06-06 13:13:46.970816",
+ "modified_by": "Administrator",
+ "module": "PyroCCS Tracking System",
+ "name": "List of Biochar Labs",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
