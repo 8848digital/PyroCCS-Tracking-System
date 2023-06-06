@@ -5,5 +5,5 @@
 from frappe.tests.utils import FrappeTestCase
 
 
-class TestTypesofFuelSources(FrappeTestCase):
+class TestListOfTypesofFuelSources(FrappeTestCase):
 	pass

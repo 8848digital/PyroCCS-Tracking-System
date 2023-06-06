@@ -64,7 +64,7 @@
  "modified": "2023-06-02 13:19:12.014699",
  "modified_by": "Administrator",
  "module": "PyroCCS Tracking System",
- "name": "Pots",
+ "name": "List Of Pots",
  "naming_rule": "Expression (old style)",
  "owner": "Administrator",
  "permissions": [

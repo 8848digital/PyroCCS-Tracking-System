@@ -5,5 +5,5 @@
 from frappe.tests.utils import FrappeTestCase
 
 
-class TestPlantStatusPeriods(FrappeTestCase):
+class TestListofBiocharStandards(FrappeTestCase):
 	pass

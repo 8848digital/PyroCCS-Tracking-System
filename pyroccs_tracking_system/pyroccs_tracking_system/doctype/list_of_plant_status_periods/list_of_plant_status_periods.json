@@ -11,13 +11,17 @@
   "plant_id",
   "plant_status",
   "estimated_duration",
+  "column_break_68xez",
   "start_validity_of_this_status",
   "end_validity_of_this_status",
+  "section_break_y60xm",
   "pyrolysis_batches",
   "fuel_consumption_logging",
+  "section_break_dfov4",
   "repair_logging",
-  "comment_on_status",
   "pictures_on_status",
+  "column_break_xnet3",
+  "comment_on_status",
   "documentation_upload"
  ],
  "fields": [
@@ -55,8 +59,9 @@
   },
   {
    "fieldname": "fuel_consumption_logging",
-   "fieldtype": "Data",
-   "label": "Fuel Consumption Logging"
+   "fieldtype": "Table",
+   "label": "Fuel Consumption Logging",
+   "options": "List of Fuel Consumption"
   },
   {
    "fieldname": "repair_logging",
@@ -77,14 +82,30 @@
    "fieldname": "documentation_upload",
    "fieldtype": "Attach",
    "label": "Documentation Upload"
+  },
+  {
+   "fieldname": "section_break_y60xm",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_68xez",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_xnet3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_dfov4",
+   "fieldtype": "Section Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-06-06 11:34:37.077584",
+ "modified": "2023-06-06 12:46:40.609394",
  "modified_by": "Administrator",
  "module": "PyroCCS Tracking System",
- "name": "Plant Status Periods",
+ "name": "List of Plant Status Periods",
  "owner": "Administrator",
  "permissions": [
   {

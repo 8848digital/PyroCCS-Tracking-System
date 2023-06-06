@@ -5,5 +5,5 @@
 from frappe.tests.utils import FrappeTestCase
 
 
-class TestFuelConsumption(FrappeTestCase):
+class TestListofBiocharLabs(FrappeTestCase):
 	pass
