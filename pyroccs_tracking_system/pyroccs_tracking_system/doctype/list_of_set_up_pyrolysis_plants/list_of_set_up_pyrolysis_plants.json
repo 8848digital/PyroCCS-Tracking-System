@@ -1,0 +1,202 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{####}",
+ "creation": "2023-06-06 12:02:20.586774",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "plant_owner",
+  "plant_operator",
+  "responsible_c_sink_manager",
+  "plant_serial_number",
+  "plant_model",
+  "current_plant_status",
+  "type_of_plant_burning_fuel_used_on_site",
+  "type_of_biomass_processed_section",
+  "agricultural_residue",
+  "column_break_tvx2x",
+  "forest_waste",
+  "column_break_jkubo",
+  "municipal_waste",
+  "column_break_znsf2",
+  "industrial_waste",
+  "column_break_0zvqu",
+  "invasive_species",
+  "section_break_8aeil",
+  "plant_construction_started",
+  "relevant_one_time_carbon_emissions",
+  "official_address",
+  "coordinates_of_plant_location",
+  "picture_of_plant",
+  "accreditation1",
+  "accreditation2",
+  "comments_on_plant"
+ ],
+ "fields": [
+  {
+   "fieldname": "plant_owner",
+   "fieldtype": "Link",
+   "label": "Plant Owner",
+   "options": "List of Plant Owners"
+  },
+  {
+   "fieldname": "plant_operator",
+   "fieldtype": "Link",
+   "label": "Plant Operator",
+   "options": "List of Plant Operators"
+  },
+  {
+   "fieldname": "responsible_c_sink_manager",
+   "fieldtype": "Link",
+   "label": "Responsible C-Sink Manager",
+   "options": "List of C-Sink Managers"
+  },
+  {
+   "fieldname": "plant_serial_number",
+   "fieldtype": "Data",
+   "label": "Plant Serial Number"
+  },
+  {
+   "fieldname": "plant_model",
+   "fieldtype": "Data",
+   "label": "Plant Model"
+  },
+  {
+   "fieldname": "current_plant_status",
+   "fieldtype": "Data",
+   "label": "Current Plant Status"
+  },
+  {
+   "fieldname": "type_of_plant_burning_fuel_used_on_site",
+   "fieldtype": "Select",
+   "label": "Type of Plant Burning Fuel Used on Site",
+   "options": "LPG\nCNG\nBiogas\nBiomass"
+  },
+  {
+   "fieldname": "type_of_biomass_processed_section",
+   "fieldtype": "Section Break",
+   "label": "Type of Biomass Processed"
+  },
+  {
+   "default": "0",
+   "fieldname": "agricultural_residue",
+   "fieldtype": "Check",
+   "label": "Agricultural Residue"
+  },
+  {
+   "fieldname": "column_break_tvx2x",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "forest_waste",
+   "fieldtype": "Check",
+   "label": "Forest Waste"
+  },
+  {
+   "fieldname": "column_break_jkubo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "municipal_waste",
+   "fieldtype": "Check",
+   "label": "Municipal Waste"
+  },
+  {
+   "fieldname": "column_break_znsf2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "industrial_waste",
+   "fieldtype": "Check",
+   "label": "Industrial Waste"
+  },
+  {
+   "fieldname": "column_break_0zvqu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "invasive_species",
+   "fieldtype": "Check",
+   "label": "Invasive Species"
+  },
+  {
+   "fieldname": "section_break_8aeil",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "plant_construction_started",
+   "fieldtype": "Datetime",
+   "label": "Plant Construction Started"
+  },
+  {
+   "fieldname": "relevant_one_time_carbon_emissions",
+   "fieldtype": "Table",
+   "label": "Relevant One-Time Carbon Emissions",
+   "options": "Relevant One-Time Carbon Emissions"
+  },
+  {
+   "fieldname": "official_address",
+   "fieldtype": "Data",
+   "label": "Official Address"
+  },
+  {
+   "fieldname": "coordinates_of_plant_location",
+   "fieldtype": "Data",
+   "label": "Coordinates of Plant Location"
+  },
+  {
+   "fieldname": "picture_of_plant",
+   "fieldtype": "Attach Image",
+   "label": "Picture of Plant"
+  },
+  {
+   "fieldname": "accreditation1",
+   "fieldtype": "Link",
+   "label": "Accreditation/Certificate/Permit 1",
+   "options": "List of Accreditations"
+  },
+  {
+   "fieldname": "accreditation2",
+   "fieldtype": "Link",
+   "label": "Accreditation/Certificate/Permit 2",
+   "options": "List of Accreditations"
+  },
+  {
+   "fieldname": "comments_on_plant",
+   "fieldtype": "Small Text",
+   "label": "Comments on Plant"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-06-06 12:25:39.645154",
+ "modified_by": "Administrator",
+ "module": "PyroCCS Tracking System",
+ "name": "List of Set-up Pyrolysis Plants",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

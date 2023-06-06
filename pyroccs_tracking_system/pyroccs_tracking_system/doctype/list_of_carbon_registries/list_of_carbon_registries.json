@@ -1,0 +1,85 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:REGISTRY-{####}",
+ "creation": "2023-06-06 13:09:55.198207",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "name_of_registry",
+  "short_name_of_registry",
+  "address_contact_details_section",
+  "address",
+  "column_break_o4mj5",
+  "contact_details",
+  "section_break_txt4h",
+  "comments"
+ ],
+ "fields": [
+  {
+   "fieldname": "name_of_registry",
+   "fieldtype": "Data",
+   "label": "Name of Registry"
+  },
+  {
+   "fieldname": "short_name_of_registry",
+   "fieldtype": "Data",
+   "label": "Short Name of Registry"
+  },
+  {
+   "fieldname": "address_contact_details_section",
+   "fieldtype": "Section Break",
+   "label": "Address & Contact Details"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Data",
+   "label": "Address"
+  },
+  {
+   "fieldname": "column_break_o4mj5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "contact_details",
+   "fieldtype": "Data",
+   "label": "Contact Details"
+  },
+  {
+   "fieldname": "section_break_txt4h",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "comments",
+   "fieldtype": "Small Text",
+   "label": "Comments"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-06-06 13:17:11.538189",
+ "modified_by": "Administrator",
+ "module": "PyroCCS Tracking System",
+ "name": "List of Carbon Registries",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,90 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:CREDITS-{YY}-{####}",
+ "creation": "2023-06-06 14:19:19.352262",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "status_of_carbon_credit_generation",
+  "select_carbon_standard_registration",
+  "select_carbon_registry_registration",
+  "remitting_data",
+  "select_audited_sequestration_bundle",
+  "one_time_emissions_retirement",
+  "comments",
+  "carbon_credit_sales_information"
+ ],
+ "fields": [
+  {
+   "fieldname": "status_of_carbon_credit_generation",
+   "fieldtype": "Select",
+   "label": "Status of Carbon Credit Generation",
+   "options": "Draft\nIn Transfer\nTransfer - Successful\nTransfer - Failed\nSelf-Retire Carbon Credit"
+  },
+  {
+   "fieldname": "select_carbon_standard_registration",
+   "fieldtype": "Link",
+   "label": "Select Carbon Standard Registration",
+   "options": "List of Carbon Standard Registrations"
+  },
+  {
+   "fieldname": "select_carbon_registry_registration",
+   "fieldtype": "Link",
+   "label": "Select Carbon Registry Registration",
+   "options": "List of Carbon Registry Registrations"
+  },
+  {
+   "fieldname": "remitting_data",
+   "fieldtype": "Data",
+   "label": "Remitting Data"
+  },
+  {
+   "fieldname": "select_audited_sequestration_bundle",
+   "fieldtype": "Data",
+   "label": "Select Audited Sequestration Bundle"
+  },
+  {
+   "fieldname": "one_time_emissions_retirement",
+   "fieldtype": "Data",
+   "label": "One-Time Emissions Retirement"
+  },
+  {
+   "fieldname": "comments",
+   "fieldtype": "Small Text",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "carbon_credit_sales_information",
+   "fieldtype": "Data",
+   "label": "Carbon Credit Sales Information"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-06-06 15:33:08.501927",
+ "modified_by": "Administrator",
+ "module": "PyroCCS Tracking System",
+ "name": "Generation of Carbon Credits",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
