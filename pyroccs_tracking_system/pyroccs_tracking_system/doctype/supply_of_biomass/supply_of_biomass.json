@@ -45,9 +45,10 @@
  "fields": [
   {
    "fieldname": "plant_number",
-   "fieldtype": "Data",
+   "fieldtype": "Link",
    "in_list_view": 1,
    "label": "Plant Number",
+   "options": "List of Set-up Pyrolysis Plants",
    "reqd": 1
   },
   {
@@ -89,13 +90,15 @@
   },
   {
    "fieldname": "name_of_trailer",
-   "fieldtype": "Data",
-   "label": " Name of Trailer"
+   "fieldtype": "Link",
+   "label": " Name of Trailer",
+   "options": "List of Trailers"
   },
   {
    "fieldname": "name_of_vehicle",
-   "fieldtype": "Data",
-   "label": "Name of Vehicle"
+   "fieldtype": "Link",
+   "label": "Name of Vehicle",
+   "options": "List of Vehicles"
   },
   {
    "fieldname": "section_break_i7wh0",
@@ -123,11 +126,13 @@
    "label": "Picture of Biomass"
   },
   {
+   "description": "kg",
    "fieldname": "trailer_weight_in",
    "fieldtype": "Data",
    "label": "Trailer Weight In"
   },
   {
+   "description": "kg",
    "fieldname": "trailer_weight_out",
    "fieldtype": "Data",
    "label": "Trailer Weight Out"
@@ -221,7 +226,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-06-01 18:05:15.009388",
+ "modified": "2023-06-06 15:53:24.844739",
  "modified_by": "Administrator",
  "module": "PyroCCS Tracking System",
  "name": "Supply of Biomass",
