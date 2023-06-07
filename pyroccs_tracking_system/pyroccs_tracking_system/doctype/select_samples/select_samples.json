@@ -1,0 +1,36 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-06-06 15:37:59.966829",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "unique_sample_number",
+  "date_end_of_pyrolysis"
+ ],
+ "fields": [
+  {
+   "fieldname": "unique_sample_number",
+   "fieldtype": "Data",
+   "label": "Unique Sample Number"
+  },
+  {
+   "fieldname": "date_end_of_pyrolysis",
+   "fieldtype": "Date",
+   "label": "Date End of Pyrolysis"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-06-06 15:37:59.966829",
+ "modified_by": "Administrator",
+ "module": "PyroCCS Tracking System",
+ "name": "Select Samples",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
