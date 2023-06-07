@@ -1,0 +1,128 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "LABTEST - .####",
+ "creation": "2023-06-06 15:36:48.649400",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "plant_id",
+  "biochar_lab",
+  "column_break_fo8cc",
+  "result_status",
+  "biochar_type",
+  "section_break_zdoes",
+  "select_samples",
+  "section_break_va4oy",
+  "total_weight_of_sample_sent_in_kg",
+  "date_sent_for_sampling",
+  "results_received",
+  "column_break_4auzx",
+  "comments_on_testing",
+  "picture_of_sampling_process",
+  "upload_documentation"
+ ],
+ "fields": [
+  {
+   "fieldname": "plant_id",
+   "fieldtype": "Data",
+   "label": "Plant ID"
+  },
+  {
+   "fieldname": "biochar_lab",
+   "fieldtype": "Link",
+   "label": "Biochar Lab",
+   "options": "List of Biochar Labs"
+  },
+  {
+   "fieldname": "result_status",
+   "fieldtype": "Select",
+   "label": "Result Status",
+   "options": "Ready for Dispatch\nSent for Lab Analysis\nResults Received - OK\nResults Received - NOT OK"
+  },
+  {
+   "fieldname": "biochar_type",
+   "fieldtype": "Data",
+   "label": "Biochar Type"
+  },
+  {
+   "fieldname": "section_break_zdoes",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_samples",
+   "fieldtype": "Table",
+   "label": "Select Samples",
+   "options": "Select Samples"
+  },
+  {
+   "fieldname": "total_weight_of_sample_sent_in_kg",
+   "fieldtype": "Float",
+   "label": "Total Weight of Sample Sent in Kg"
+  },
+  {
+   "fieldname": "date_sent_for_sampling",
+   "fieldtype": "Date",
+   "label": "Date Sent for Sampling"
+  },
+  {
+   "fieldname": "results_received",
+   "fieldtype": "Date",
+   "label": "Results Received"
+  },
+  {
+   "fieldname": "comments_on_testing",
+   "fieldtype": "Data",
+   "label": "Comments on Testing"
+  },
+  {
+   "fieldname": "picture_of_sampling_process",
+   "fieldtype": "Attach Image",
+   "label": "Picture of Sampling Process"
+  },
+  {
+   "fieldname": "upload_documentation",
+   "fieldtype": "Attach",
+   "label": "Upload Documentation"
+  },
+  {
+   "fieldname": "section_break_va4oy",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_fo8cc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_4auzx",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-06-06 15:40:06.512293",
+ "modified_by": "Administrator",
+ "module": "PyroCCS Tracking System",
+ "name": "List of Biochar Sampling",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
