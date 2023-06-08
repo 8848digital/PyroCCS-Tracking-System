@@ -1,0 +1,82 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-06-08 13:05:16.901191",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "sequesterer_details",
+  "list_carbon_sink_locations",
+  "amount_sequestered",
+  "date_and_time_of_sequestration",
+  "pictures_of_sequestration",
+  "sequestration_comments",
+  "declaration"
+ ],
+ "fields": [
+  {
+   "fieldname": "sequesterer_details",
+   "fieldtype": "Data",
+   "label": "Sequesterer Details"
+  },
+  {
+   "fieldname": "list_carbon_sink_locations",
+   "fieldtype": "Link",
+   "label": "List Carbon Sink Locations",
+   "options": "List Carbon Sink Locations"
+  },
+  {
+   "fieldname": "amount_sequestered",
+   "fieldtype": "Data",
+   "label": "Amount Sequestered"
+  },
+  {
+   "fieldname": "date_and_time_of_sequestration",
+   "fieldtype": "Datetime",
+   "label": "Date and Time of Sequestration"
+  },
+  {
+   "fieldname": "pictures_of_sequestration",
+   "fieldtype": "Attach Image",
+   "label": "Pictures of Sequestration"
+  },
+  {
+   "fieldname": "sequestration_comments",
+   "fieldtype": "Data",
+   "label": "Sequestration Comments"
+  },
+  {
+   "default": "0",
+   "description": "I, as the end user of the biochar, hereby confirm\nthat I have accurately and responsibly incorporated\nthe specified amount of biochar into its final use\nfollowing the recommended guidelines. I understand\nand agree to the terms and conditions stipulated,\nand commit to highest ethical and reporting\nstandards.",
+   "fieldname": "declaration",
+   "fieldtype": "Check",
+   "label": "Declaration"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-06-08 13:07:23.034590",
+ "modified_by": "Administrator",
+ "module": "PyroCCS Tracking System",
+ "name": "Sequestration Registration Module",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
