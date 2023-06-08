@@ -1,0 +1,123 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "AUDIT-.####",
+ "creation": "2023-06-08 13:11:41.362813",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "status_of_audit",
+  "type_of_audit",
+  "select_sequestration_bundle",
+  "details_of_bundle",
+  "select_carbon_standard",
+  "carbon_standard_registration_number",
+  "relevant_carbon_sequestration",
+  "further_deductions",
+  "addition_comments",
+  "auditor_picture_upload",
+  "auditor_comments_extra",
+  "auditor_documentation_upload",
+  "auditor_digital_signature_upload"
+ ],
+ "fields": [
+  {
+   "fieldname": "status_of_audit",
+   "fieldtype": "Select",
+   "label": "Status of Audit",
+   "options": "In Progress\nOn Hold for Clarifications\nRejected for Rectification\nApproved for Credit Generation"
+  },
+  {
+   "fieldname": "type_of_audit",
+   "fieldtype": "Select",
+   "label": "Type of Audit",
+   "options": "Self-Audit\nExternal Audit"
+  },
+  {
+   "fieldname": "select_sequestration_bundle",
+   "fieldtype": "Link",
+   "label": "Select Sequestration Bundle",
+   "options": "List of Sequestration Bundles"
+  },
+  {
+   "fieldname": "details_of_bundle",
+   "fieldtype": "Data",
+   "label": "Details of Bundle"
+  },
+  {
+   "fieldname": "select_carbon_standard",
+   "fieldtype": "Link",
+   "label": "Select Carbon Standard",
+   "options": "List of Carbon Standards"
+  },
+  {
+   "fieldname": "carbon_standard_registration_number",
+   "fieldtype": "Link",
+   "label": "Carbon Standard Registration Number",
+   "options": "List of Carbon Standard Registrations"
+  },
+  {
+   "fieldname": "relevant_carbon_sequestration",
+   "fieldtype": "Data",
+   "label": "Relevant Carbon Sequestration"
+  },
+  {
+   "fieldname": "further_deductions",
+   "fieldtype": "Table",
+   "label": "Further Deductions",
+   "options": "Further Deductions"
+  },
+  {
+   "fieldname": "addition_comments",
+   "fieldtype": "Data",
+   "label": "Addition Comments"
+  },
+  {
+   "fieldname": "auditor_picture_upload",
+   "fieldtype": "Attach Image",
+   "label": "Auditor Picture Upload"
+  },
+  {
+   "fieldname": "auditor_comments_extra",
+   "fieldtype": "Data",
+   "label": "Auditor Comments Extra"
+  },
+  {
+   "fieldname": "auditor_documentation_upload",
+   "fieldtype": "Attach",
+   "label": "Auditor Documentation Upload"
+  },
+  {
+   "fieldname": "auditor_digital_signature_upload",
+   "fieldtype": "Attach",
+   "label": "Auditor Digital Signature Upload"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-06-08 13:18:19.384533",
+ "modified_by": "Administrator",
+ "module": "PyroCCS Tracking System",
+ "name": "MRV Module",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
