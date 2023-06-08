@@ -11,8 +11,10 @@
   "name_company",
   "name_contact_person",
   "address_section",
+  "address",
   "address_section_end",
   "contact_details_section",
+  "contact",
   "contact_section_end",
   "permit"
  ],
@@ -47,13 +49,26 @@
   },
   {
    "fieldname": "permit",
-   "fieldtype": "Data",
-   "label": "Accreditation/Certificate/Permit"
+   "fieldtype": "Link",
+   "label": "Accreditation/Certificate/Permit",
+   "options": "List of Accreditations"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Link",
+   "label": "Address",
+   "options": "Address"
+  },
+  {
+   "fieldname": "contact",
+   "fieldtype": "Link",
+   "label": "Contact",
+   "options": "Contact"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-06-01 18:04:57.735081",
+ "modified": "2023-06-08 12:11:17.413788",
  "modified_by": "Administrator",
  "module": "PyroCCS Tracking System",
  "name": "List of Biomass Suppliers",

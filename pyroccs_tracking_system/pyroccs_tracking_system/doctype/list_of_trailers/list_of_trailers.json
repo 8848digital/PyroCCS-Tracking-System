@@ -20,8 +20,9 @@
  "fields": [
   {
    "fieldname": "trailer_owner",
-   "fieldtype": "Data",
-   "label": "Trailer Owner/Provider/User"
+   "fieldtype": "Link",
+   "label": "Trailer Owner/Provider/User",
+   "options": "List of Equipment Owners"
   },
   {
    "fieldname": "type_of_trailer",
@@ -62,7 +63,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-06-02 12:22:06.526442",
+ "modified": "2023-06-08 12:15:20.868861",
  "modified_by": "Administrator",
  "module": "PyroCCS Tracking System",
  "name": "List of Trailers",

@@ -26,18 +26,20 @@
   },
   {
    "fieldname": "address",
-   "fieldtype": "Data",
-   "label": "Address"
+   "fieldtype": "Link",
+   "label": "Address",
+   "options": "Address"
   },
   {
    "fieldname": "contact_details",
-   "fieldtype": "Data",
-   "label": "Contact Details"
+   "fieldtype": "Link",
+   "label": "Contact Details",
+   "options": "Contact"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-06-05 13:37:39.869838",
+ "modified": "2023-06-07 21:32:54.509960",
  "modified_by": "Administrator",
  "module": "PyroCCS Tracking System",
  "name": "List of Plant Owners",

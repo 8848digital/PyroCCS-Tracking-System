@@ -56,8 +56,9 @@
   },
   {
    "fieldname": "plant_serial_number",
-   "fieldtype": "Data",
-   "label": "Plant Serial Number"
+   "fieldtype": "Link",
+   "label": "Plant Serial Number",
+   "options": "List of Manufactured Plants"
   },
   {
    "fieldname": "plant_model",
@@ -66,8 +67,9 @@
   },
   {
    "fieldname": "current_plant_status",
-   "fieldtype": "Data",
-   "label": "Current Plant Status"
+   "fieldtype": "Link",
+   "label": "Current Plant Status",
+   "options": "List of Plant Status Periods"
   },
   {
    "fieldname": "type_of_plant_burning_fuel_used_on_site",
@@ -176,7 +178,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-06-06 12:25:39.645154",
+ "modified": "2023-06-08 11:46:43.199876",
  "modified_by": "Administrator",
  "module": "PyroCCS Tracking System",
  "name": "List of Set-up Pyrolysis Plants",
