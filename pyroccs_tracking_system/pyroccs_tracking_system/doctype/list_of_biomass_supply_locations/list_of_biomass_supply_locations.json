@@ -13,7 +13,7 @@
   "official_address",
   "coordinates_of_biomass_location",
   "photo_of_biomass_location",
-  "map"
+  "html"
  ],
  "fields": [
   {
@@ -29,12 +29,12 @@
   },
   {
    "fieldname": "official_address",
-   "fieldtype": "Geolocation",
+   "fieldtype": "Data",
    "label": "Official Address"
   },
   {
    "fieldname": "coordinates_of_biomass_location",
-   "fieldtype": "Geolocation",
+   "fieldtype": "Data",
    "label": "Coordinates of Biomass Location"
   },
   {
@@ -43,14 +43,13 @@
    "label": "Photo of Biomass Location"
   },
   {
-   "fieldname": "map",
-   "fieldtype": "HTML",
-   "label": "Map"
+   "fieldname": "html",
+   "fieldtype": "HTML"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-06-01 17:16:24.236786",
+ "modified": "2023-06-07 16:31:35.812870",
  "modified_by": "Administrator",
  "module": "PyroCCS Tracking System",
  "name": "List of Biomass Supply Locations",
