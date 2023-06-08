@@ -18,8 +18,9 @@
  "fields": [
   {
    "fieldname": "name_of_carbon_standard",
-   "fieldtype": "Data",
-   "label": "Name of Carbon Standard"
+   "fieldtype": "Link",
+   "label": "Name of Carbon Standard",
+   "options": "List of Carbon Standards"
   },
   {
    "fieldname": "registration_number",
@@ -49,7 +50,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-06-06 13:16:55.075386",
+ "modified": "2023-06-08 13:04:27.601044",
  "modified_by": "Administrator",
  "module": "PyroCCS Tracking System",
  "name": "List of Carbon Standard Registrations",
