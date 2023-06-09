@@ -1,4 +1,5 @@
 {
+ "_liked_by": "[\"Administrator\"]",
  "actions": [],
  "allow_rename": 1,
  "creation": "2023-06-08 13:05:16.901191",
@@ -18,8 +19,9 @@
  "fields": [
   {
    "fieldname": "sequesterer_details",
-   "fieldtype": "Data",
-   "label": "Sequesterer Details"
+   "fieldtype": "Link",
+   "label": "Sequesterer Details",
+   "options": "List of Biochar Customers Recipients"
   },
   {
    "fieldname": "list_carbon_sink_locations",
@@ -57,7 +59,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-06-08 13:07:23.034590",
+ "modified": "2023-06-09 12:56:59.367264",
  "modified_by": "Administrator",
  "module": "PyroCCS Tracking System",
  "name": "Sequestration Registration Module",
