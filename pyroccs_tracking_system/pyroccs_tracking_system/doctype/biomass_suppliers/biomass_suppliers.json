@@ -10,12 +10,13 @@
  "field_order": [
   "name_company",
   "name_contact_person",
-  "address_section",
+  "address_and_contact_section",
   "address",
-  "address_section_end",
-  "contact_details_section",
+  "address_html",
+  "column_break_5yqej",
   "contact",
-  "contact_section_end",
+  "contact_html",
+  "section_break_9yk4z",
   "permit"
  ],
  "fields": [
@@ -30,24 +31,10 @@
    "label": "Name Contact Person"
   },
   {
-   "fieldname": "address_section",
-   "fieldtype": "Section Break",
-   "label": "Address"
-  },
-  {
    "fieldname": "address",
    "fieldtype": "Link",
    "label": "Address",
    "options": "Address"
-  },
-  {
-   "fieldname": "address_section_end",
-   "fieldtype": "Section Break"
-  },
-  {
-   "fieldname": "contact_details_section",
-   "fieldtype": "Section Break",
-   "label": "Contact Details"
   },
   {
    "fieldname": "contact",
@@ -56,19 +43,38 @@
    "options": "Contact"
   },
   {
-   "fieldname": "contact_section_end",
-   "fieldtype": "Section Break"
-  },
-  {
    "fieldname": "permit",
    "fieldtype": "Link",
    "label": "Accreditation/Certificate/Permit",
    "options": "Accreditations"
+  },
+  {
+   "fieldname": "address_and_contact_section",
+   "fieldtype": "Section Break",
+   "label": "Address and Contact"
+  },
+  {
+   "fieldname": "column_break_5yqej",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "address_html",
+   "fieldtype": "HTML",
+   "label": "Address HTML"
+  },
+  {
+   "fieldname": "contact_html",
+   "fieldtype": "HTML",
+   "label": "Contact HTML"
+  },
+  {
+   "fieldname": "section_break_9yk4z",
+   "fieldtype": "Section Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-06-15 17:23:21.681701",
+ "modified": "2023-06-15 18:15:11.928878",
  "modified_by": "Administrator",
  "module": "PyroCCS Tracking System",
  "name": "Biomass Suppliers",

@@ -11,7 +11,13 @@
   "name_of_carbon_standard",
   "abbreviation_of_carbon_standard",
   "activate_deactivate_relevant_emission_factors",
-  "address_and__contact_details",
+  "address_and__contact_section",
+  "address",
+  "address_html",
+  "column_break_rsudd",
+  "contact",
+  "contact_html",
+  "section_break_lqb1b",
   "documentation_upload"
  ],
  "fields": [
@@ -32,19 +38,49 @@
    "label": "Activate/deactivate relevant emission factors"
   },
   {
-   "fieldname": "address_and__contact_details",
-   "fieldtype": "Data",
-   "label": "Address and  Contact Details"
-  },
-  {
    "fieldname": "documentation_upload",
    "fieldtype": "Attach",
    "label": "Documentation Upload"
+  },
+  {
+   "fieldname": "address_and__contact_section",
+   "fieldtype": "Section Break",
+   "label": "Address and  Contact"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Link",
+   "label": "Address",
+   "options": "Address"
+  },
+  {
+   "fieldname": "column_break_rsudd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "address_html",
+   "fieldtype": "HTML",
+   "label": "Address HTML"
+  },
+  {
+   "fieldname": "contact",
+   "fieldtype": "Link",
+   "label": "Contact",
+   "options": "Contact"
+  },
+  {
+   "fieldname": "contact_html",
+   "fieldtype": "HTML",
+   "label": "Contact HTML"
+  },
+  {
+   "fieldname": "section_break_lqb1b",
+   "fieldtype": "Section Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-06-08 12:58:10.154365",
+ "modified": "2023-06-15 18:13:51.284245",
  "modified_by": "Administrator",
  "module": "PyroCCS Tracking System",
  "name": "Carbon Standards",
