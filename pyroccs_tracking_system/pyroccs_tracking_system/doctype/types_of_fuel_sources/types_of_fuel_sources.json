@@ -1,0 +1,102 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-06-02 16:02:37.911422",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "fuel_name",
+  "type_of_fuel",
+  "standard_measurement_unit",
+  "renewable_sustainable_fuel_source",
+  "type_of_renewable_sustainable_fuel_source",
+  "column_break_cinmg",
+  "co2_equivalent",
+  "comment_on_type_of_fuel",
+  "picture_upload",
+  "upload_documentation"
+ ],
+ "fields": [
+  {
+   "fieldname": "fuel_name",
+   "fieldtype": "Data",
+   "label": "Fuel Name"
+  },
+  {
+   "fieldname": "type_of_fuel",
+   "fieldtype": "Select",
+   "label": "Type of Fuel",
+   "options": "Gas\nPetroleum\nDiesel\nBiomass\nElectricity\nCoal"
+  },
+  {
+   "fieldname": "standard_measurement_unit",
+   "fieldtype": "Select",
+   "label": "Standard Measurement Unit",
+   "options": "kWh\nLiters\nGallons\nkgs\nm3"
+  },
+  {
+   "default": "0",
+   "fieldname": "renewable_sustainable_fuel_source",
+   "fieldtype": "Check",
+   "label": "Renewable/Sustainable Fuel Source"
+  },
+  {
+   "depends_on": "eval: doc.renewable_sustainable_fuel_source == true",
+   "fieldname": "type_of_renewable_sustainable_fuel_source",
+   "fieldtype": "Select",
+   "label": "Type of Renewable Sustainable Fuel Source",
+   "mandatory_depends_on": "eval: doc.renewable_sustainable_fuel_source == true",
+   "options": "Wind-generated Electricity\nWater-generated Electricity\nSolar-generated Electricity\nLocal Biomass\nBiogas\nBiofuel (describe in comments)\nIncomplete Pyrolysis Biomass"
+  },
+  {
+   "fieldname": "co2_equivalent",
+   "fieldtype": "Float",
+   "label": "CO2 Equivalent"
+  },
+  {
+   "fieldname": "comment_on_type_of_fuel",
+   "fieldtype": "Small Text",
+   "label": "Comment on Type of Fuel"
+  },
+  {
+   "fieldname": "picture_upload",
+   "fieldtype": "Attach Image",
+   "label": "Picture Upload"
+  },
+  {
+   "fieldname": "upload_documentation",
+   "fieldtype": "Attach",
+   "label": "Upload Documentation"
+  },
+  {
+   "fieldname": "column_break_cinmg",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-06-02 16:08:20.317883",
+ "modified_by": "Administrator",
+ "module": "PyroCCS Tracking System",
+ "name": "Types of Fuel Sources",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

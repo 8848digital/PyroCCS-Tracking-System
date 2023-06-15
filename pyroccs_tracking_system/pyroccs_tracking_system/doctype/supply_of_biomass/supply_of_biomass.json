@@ -50,7 +50,7 @@
    "fieldtype": "Link",
    "in_list_view": 1,
    "label": "Plant Number",
-   "options": "List of Set-up Pyrolysis Plants",
+   "options": "Plant Master",
    "reqd": 1
   },
   {
@@ -66,7 +66,7 @@
    "fieldtype": "Link",
    "hidden": 1,
    "label": "Supply Source",
-   "options": "List of Biomass Supply Locations"
+   "options": "Biomass Supply Locations"
   },
   {
    "fieldname": "distance_to_plant",
@@ -88,13 +88,13 @@
    "fieldname": "name_of_trailer",
    "fieldtype": "Link",
    "label": " Name of Trailer",
-   "options": "List of Trailers"
+   "options": "Trailers"
   },
   {
    "fieldname": "name_of_vehicle",
    "fieldtype": "Link",
    "label": "Name of Vehicle",
-   "options": "List of Vehicles"
+   "options": "Vehicles"
   },
   {
    "fieldname": "section_break_i7wh0",
@@ -114,7 +114,7 @@
    "fieldname": "type_of_biomass",
    "fieldtype": "Link",
    "label": "Type of Biomass",
-   "options": "List of Biomass Sources"
+   "options": "Biomass Sources"
   },
   {
    "fieldname": "picture_of_biomass",
@@ -223,7 +223,7 @@
    "fieldname": "supplier",
    "fieldtype": "Link",
    "label": "Supplier",
-   "options": "List of Biomass Suppliers"
+   "options": "Biomass Suppliers"
   },
   {
    "fieldname": "supplier_name",
@@ -243,7 +243,7 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2023-06-15 11:30:04.461058",
+ "modified": "2023-06-15 17:22:21.339225",
  "modified_by": "Administrator",
  "module": "PyroCCS Tracking System",
  "name": "Supply of Biomass",
