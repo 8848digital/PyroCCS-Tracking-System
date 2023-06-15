@@ -53,7 +53,7 @@
    "fieldname": "carbon_emissions_for_trailer_manufacturing",
    "fieldtype": "Table",
    "label": "Relevant One-Time Carbon Emissions for Trailer Manufacturing",
-   "options": "Relevant One-Time Carbon Emissions"
+   "options": "One-Time Emissions"
   },
   {
    "fieldname": "comment_on_trailer",
@@ -63,7 +63,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-06-08 12:15:20.868861",
+ "modified": "2023-06-15 15:04:29.049559",
  "modified_by": "Administrator",
  "module": "PyroCCS Tracking System",
  "name": "List of Trailers",

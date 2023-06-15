@@ -21,16 +21,19 @@
   {
    "fieldname": "name_of_one_time_emission",
    "fieldtype": "Data",
+   "in_list_view": 1,
    "label": "Name of One-Time Emission"
   },
   {
    "fieldname": "description_of_one_time_emission",
-   "fieldtype": "Text",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
    "label": "Description of One-Time Emission"
   },
   {
    "fieldname": "emissions_category",
    "fieldtype": "Select",
+   "in_list_view": 1,
    "label": "Emissions Category",
    "options": "Equipment\nVehicles & Transport\nInfrastructure\nMain Plant\nPlant Auxilliary Equipment\nRepairs & Spare Parts"
   },
@@ -38,52 +41,45 @@
    "default": "0",
    "fieldname": "from_renewable_resources",
    "fieldtype": "Check",
+   "in_list_view": 1,
    "label": "From Renewable/Sustainable Resources"
   },
   {
    "fieldname": "amount",
    "fieldtype": "Float",
+   "in_list_view": 1,
    "label": "Amount"
   },
   {
    "fieldname": "unit",
    "fieldtype": "Select",
+   "in_list_view": 1,
    "label": "Unit",
    "options": "kWh\nliters\ngallons\nm3\ntons\nkg\nUnit/Piece"
   },
   {
    "fieldname": "co2_conversion_rate",
-   "fieldtype": "Int",
+   "fieldtype": "Float",
+   "in_list_view": 1,
    "label": "CO2 Conversion Rate"
   },
   {
    "fieldname": "total_co2_equivalent",
    "fieldtype": "Data",
+   "in_list_view": 1,
    "label": "Total CO2 Equivalent"
   }
  ],
  "index_web_pages_for_search": 1,
+ "istable": 1,
  "links": [],
- "modified": "2023-06-02 12:17:12.588218",
+ "modified": "2023-06-15 15:01:46.515205",
  "modified_by": "Administrator",
  "module": "PyroCCS Tracking System",
- "name": "List of One-Time Emissions",
+ "name": "One-Time Emissions",
  "naming_rule": "Expression",
  "owner": "Administrator",
- "permissions": [
-  {
-   "create": 1,
-   "delete": 1,
-   "email": 1,
-   "export": 1,
-   "print": 1,
-   "read": 1,
-   "report": 1,
-   "role": "System Manager",
-   "share": 1,
-   "write": 1
-  }
- ],
+ "permissions": [],
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": []
