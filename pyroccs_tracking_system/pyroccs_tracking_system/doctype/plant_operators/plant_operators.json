@@ -1,0 +1,65 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:OPERATOR-{####}",
+ "creation": "2023-06-05 13:55:01.653396",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "name_company",
+  "name_contact_person",
+  "address",
+  "contact_details"
+ ],
+ "fields": [
+  {
+   "fieldname": "name_company",
+   "fieldtype": "Data",
+   "label": "Name Company/Owner"
+  },
+  {
+   "fieldname": "name_contact_person",
+   "fieldtype": "Data",
+   "label": "Name Contact Person"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Link",
+   "label": "Address",
+   "options": "Address"
+  },
+  {
+   "fieldname": "contact_details",
+   "fieldtype": "Link",
+   "label": "Contact Details",
+   "options": "Contact"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-06-08 11:53:38.580893",
+ "modified_by": "Administrator",
+ "module": "PyroCCS Tracking System",
+ "name": "Plant Operators",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

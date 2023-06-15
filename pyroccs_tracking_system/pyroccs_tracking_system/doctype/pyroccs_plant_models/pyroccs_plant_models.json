@@ -1,0 +1,80 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:MODEL-{####}",
+ "creation": "2023-06-05 12:30:34.479665",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "plant_model_name",
+  "type_of_burning_fuel",
+  "heating_chambers",
+  "sand_seal",
+  "relevant_one_time_carbon_emissions",
+  "accreditation"
+ ],
+ "fields": [
+  {
+   "fieldname": "plant_model_name",
+   "fieldtype": "Data",
+   "label": "Plant Model Name"
+  },
+  {
+   "fieldname": "type_of_burning_fuel",
+   "fieldtype": "Select",
+   "label": "Type of Burning Fuel",
+   "options": "LPG\nCNG\nBiogas\nBiomass"
+  },
+  {
+   "fieldname": "heating_chambers",
+   "fieldtype": "Select",
+   "label": "Heating Chambers",
+   "options": "A\nB\nC\nD\nE\nF\nG\nH"
+  },
+  {
+   "default": "0",
+   "fieldname": "sand_seal",
+   "fieldtype": "Check",
+   "label": "Sand Seal"
+  },
+  {
+   "fieldname": "relevant_one_time_carbon_emissions",
+   "fieldtype": "Table",
+   "label": "Relevant One-Time Carbon Emissions",
+   "options": "One-Time Emissions"
+  },
+  {
+   "fieldname": "accreditation",
+   "fieldtype": "Link",
+   "label": "Accreditation/Certificate/Permit",
+   "options": "Accreditations"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-06-15 17:23:22.482150",
+ "modified_by": "Administrator",
+ "module": "PyroCCS Tracking System",
+ "name": "PyroCCS Plant Models",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

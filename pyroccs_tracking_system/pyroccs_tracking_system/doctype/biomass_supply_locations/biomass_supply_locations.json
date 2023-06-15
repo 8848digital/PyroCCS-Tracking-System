@@ -1,0 +1,75 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:BIOMASS-LOC-{####}",
+ "creation": "2023-06-01 16:41:56.130532",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "owner_of_the_biomass_location",
+  "name_of_the_biomass_location",
+  "official_address",
+  "coordinates_of_biomass_location",
+  "photo_of_biomass_location",
+  "html"
+ ],
+ "fields": [
+  {
+   "fieldname": "owner_of_the_biomass_location",
+   "fieldtype": "Link",
+   "label": "Owner of the Biomass Location",
+   "options": "Biomass Suppliers"
+  },
+  {
+   "fieldname": "name_of_the_biomass_location",
+   "fieldtype": "Data",
+   "label": "Name of the Biomass Location"
+  },
+  {
+   "fieldname": "official_address",
+   "fieldtype": "Data",
+   "label": "Official Address"
+  },
+  {
+   "fieldname": "coordinates_of_biomass_location",
+   "fieldtype": "Data",
+   "label": "Coordinates of Biomass Location"
+  },
+  {
+   "fieldname": "photo_of_biomass_location",
+   "fieldtype": "Attach Image",
+   "label": "Photo of Biomass Location"
+  },
+  {
+   "fieldname": "html",
+   "fieldtype": "HTML"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-06-15 17:22:20.316671",
+ "modified_by": "Administrator",
+ "module": "PyroCCS Tracking System",
+ "name": "Biomass Supply Locations",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

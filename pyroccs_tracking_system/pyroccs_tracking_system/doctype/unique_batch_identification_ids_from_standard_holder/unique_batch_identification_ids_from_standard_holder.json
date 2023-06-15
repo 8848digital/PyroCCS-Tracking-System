@@ -1,0 +1,85 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-06-06 16:17:38.312684",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "biochar_standard",
+  "unique_batch_identification_id_from_standard_holder",
+  "from_date",
+  "to_date",
+  "column_break_dbrlt",
+  "validity",
+  "valid_invalid",
+  "upload_documentation"
+ ],
+ "fields": [
+  {
+   "fieldname": "biochar_standard",
+   "fieldtype": "Link",
+   "label": "Biochar Standard",
+   "options": "Biochar Standards"
+  },
+  {
+   "fieldname": "unique_batch_identification_id_from_standard_holder",
+   "fieldtype": "Data",
+   "label": "Unique Batch Identification ID from Standard Holder"
+  },
+  {
+   "fieldname": "validity",
+   "fieldtype": "Data",
+   "label": "Validity"
+  },
+  {
+   "fieldname": "valid_invalid",
+   "fieldtype": "Data",
+   "label": "Valid/Invalid"
+  },
+  {
+   "fieldname": "upload_documentation",
+   "fieldtype": "Attach",
+   "label": "Upload Documentation"
+  },
+  {
+   "fieldname": "column_break_dbrlt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "from_date",
+   "fieldtype": "Date",
+   "label": "From Date"
+  },
+  {
+   "fieldname": "to_date",
+   "fieldtype": "Date",
+   "label": "To Date"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-06-15 17:25:08.705199",
+ "modified_by": "Administrator",
+ "module": "PyroCCS Tracking System",
+ "name": "Unique Batch Identification IDs from Standard Holder",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

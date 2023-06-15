@@ -1,0 +1,124 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:VEHICLE-{####}",
+ "creation": "2023-06-02 14:50:51.345828",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "vehicle_owner",
+  "vehicle_manufacturer_name",
+  "vehicle_model_type",
+  "type_of_vehicle",
+  "number_plate",
+  "maximum_towing_capacity",
+  "emission_standard",
+  "type_of_fuel",
+  "fuel_consumption",
+  "co2_equivalent",
+  "relevant_one_time_carbon_emissions_for_vehicle_manufacturing",
+  "picture_of_vehicle",
+  "comments_on_vehicle"
+ ],
+ "fields": [
+  {
+   "fieldname": "vehicle_owner",
+   "fieldtype": "Link",
+   "label": "Vehicle Owner/Provider/User",
+   "options": "Biomass Suppliers"
+  },
+  {
+   "fieldname": "vehicle_manufacturer_name",
+   "fieldtype": "Data",
+   "label": "Vehicle Manufacturer Name"
+  },
+  {
+   "fieldname": "vehicle_model_type",
+   "fieldtype": "Data",
+   "label": "Vehicle Model Type"
+  },
+  {
+   "fieldname": "type_of_vehicle",
+   "fieldtype": "Select",
+   "label": "Type of Vehicle",
+   "options": "Truck\nTractor"
+  },
+  {
+   "fieldname": "number_plate",
+   "fieldtype": "Data",
+   "label": "Number Plate"
+  },
+  {
+   "fieldname": "maximum_towing_capacity",
+   "fieldtype": "Float",
+   "label": "Maximum Towing Capacity"
+  },
+  {
+   "fieldname": "emission_standard",
+   "fieldtype": "Select",
+   "label": "Emission Standard",
+   "options": "None\nEuro 1\nEuro 2\nEuro 3\nEuro 4\nEuro 5\nEuro 6\nIndia 2000 / Bharat Stage I\nBharat Stage II\nBharat Stage III\nBharat Stage IV\nBharat Stage V\nBharat Stage VI"
+  },
+  {
+   "fieldname": "type_of_fuel",
+   "fieldtype": "Select",
+   "label": "Type of Fuel",
+   "options": "Diesel\nPetrol"
+  },
+  {
+   "description": "litres/100km",
+   "fieldname": "fuel_consumption",
+   "fieldtype": "Data",
+   "label": "Fuel Consumption"
+  },
+  {
+   "description": "kg CO2-equivalent/100km",
+   "fieldname": "co2_equivalent",
+   "fieldtype": "Data",
+   "label": "CO2 Equivalent"
+  },
+  {
+   "fieldname": "relevant_one_time_carbon_emissions_for_vehicle_manufacturing",
+   "fieldtype": "Table",
+   "label": "Relevant One-Time Carbon Emissions for Vehicle Manufacturing",
+   "options": "One-Time Emissions"
+  },
+  {
+   "fieldname": "picture_of_vehicle",
+   "fieldtype": "Attach Image",
+   "label": "Picture of Vehicle"
+  },
+  {
+   "fieldname": "comments_on_vehicle",
+   "fieldtype": "Small Text",
+   "label": "Comments on Vehicle"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-06-15 17:22:20.855711",
+ "modified_by": "Administrator",
+ "module": "PyroCCS Tracking System",
+ "name": "Vehicles",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

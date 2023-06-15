@@ -126,7 +126,7 @@
    "fieldname": "reactor_temperature_during_pyrolysis",
    "fieldtype": "Table",
    "label": "Reactor Temperature During Pyrolysis",
-   "options": "List of Reactor Temperatures"
+   "options": "Reactor Temperatures"
   },
   {
    "fieldname": "after_pyrolysis_section",
@@ -227,7 +227,7 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2023-06-02 12:58:51.717078",
+ "modified": "2023-06-15 17:26:56.321494",
  "modified_by": "Administrator",
  "module": "PyroCCS Tracking System",
  "name": "Pyrolysis Process",

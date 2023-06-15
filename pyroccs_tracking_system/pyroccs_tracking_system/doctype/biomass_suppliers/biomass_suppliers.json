@@ -1,0 +1,94 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:SUPPLIER-{####}",
+ "creation": "2023-06-01 18:04:57.735081",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "name_company",
+  "name_contact_person",
+  "address_section",
+  "address",
+  "address_section_end",
+  "contact_details_section",
+  "contact",
+  "contact_section_end",
+  "permit"
+ ],
+ "fields": [
+  {
+   "fieldname": "name_company",
+   "fieldtype": "Data",
+   "label": "Name Company/Owner"
+  },
+  {
+   "fieldname": "name_contact_person",
+   "fieldtype": "Data",
+   "label": "Name Contact Person"
+  },
+  {
+   "fieldname": "address_section",
+   "fieldtype": "Section Break",
+   "label": "Address"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Link",
+   "label": "Address",
+   "options": "Address"
+  },
+  {
+   "fieldname": "address_section_end",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "contact_details_section",
+   "fieldtype": "Section Break",
+   "label": "Contact Details"
+  },
+  {
+   "fieldname": "contact",
+   "fieldtype": "Link",
+   "label": "Contact",
+   "options": "Contact"
+  },
+  {
+   "fieldname": "contact_section_end",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "permit",
+   "fieldtype": "Link",
+   "label": "Accreditation/Certificate/Permit",
+   "options": "Accreditations"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-06-15 17:23:21.681701",
+ "modified_by": "Administrator",
+ "module": "PyroCCS Tracking System",
+ "name": "Biomass Suppliers",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,76 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:STANDARDREG-{####}",
+ "creation": "2023-06-06 13:16:55.075386",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "name_of_carbon_standard",
+  "registration_number",
+  "valid_from",
+  "valid_till",
+  "point_of_contact",
+  "comments"
+ ],
+ "fields": [
+  {
+   "fieldname": "name_of_carbon_standard",
+   "fieldtype": "Link",
+   "label": "Name of Carbon Standard",
+   "options": "Carbon Standards"
+  },
+  {
+   "fieldname": "registration_number",
+   "fieldtype": "Data",
+   "label": "Registration Number"
+  },
+  {
+   "fieldname": "valid_from",
+   "fieldtype": "Datetime",
+   "label": "Valid from"
+  },
+  {
+   "fieldname": "valid_till",
+   "fieldtype": "Data",
+   "label": "Valid till"
+  },
+  {
+   "fieldname": "point_of_contact",
+   "fieldtype": "Data",
+   "label": "Point of Contact"
+  },
+  {
+   "fieldname": "comments",
+   "fieldtype": "Small Text",
+   "label": "Comments"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-06-15 17:19:20.942079",
+ "modified_by": "Administrator",
+ "module": "PyroCCS Tracking System",
+ "name": "Carbon Standard Registrations",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
