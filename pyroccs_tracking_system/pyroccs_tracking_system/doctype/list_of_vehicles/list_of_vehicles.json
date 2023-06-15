@@ -83,7 +83,7 @@
    "fieldname": "relevant_one_time_carbon_emissions_for_vehicle_manufacturing",
    "fieldtype": "Table",
    "label": "Relevant One-Time Carbon Emissions for Vehicle Manufacturing",
-   "options": "Relevant One-Time Carbon Emissions"
+   "options": "One-Time Emissions"
   },
   {
    "fieldname": "picture_of_vehicle",
@@ -98,7 +98,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-06-02 14:51:01.955210",
+ "modified": "2023-06-15 15:04:43.763900",
  "modified_by": "Administrator",
  "module": "PyroCCS Tracking System",
  "name": "List of Vehicles",

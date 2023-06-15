@@ -27,8 +27,9 @@
   },
   {
    "fieldname": "relevant_one_time_carbon_emissions",
-   "fieldtype": "Data",
-   "label": "Relevant One_Time Carbon Emissions"
+   "fieldtype": "Table",
+   "label": "Relevant One Time Carbon Emissions",
+   "options": "One-Time Emissions"
   },
   {
    "fieldname": "pictures_of_repair",
@@ -43,7 +44,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-06-06 12:35:14.137597",
+ "modified": "2023-06-15 15:06:27.138548",
  "modified_by": "Administrator",
  "module": "PyroCCS Tracking System",
  "name": "List of Repairs",
