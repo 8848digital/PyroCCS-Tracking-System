@@ -10,8 +10,13 @@
  "field_order": [
   "name_company",
   "name_contact_person",
+  "address_and_contact_section",
   "address",
-  "contact_details"
+  "address_html",
+  "column_break_ebfcs",
+  "contact",
+  "contact_html",
+  "section_break_o9hib"
  ],
  "fields": [
   {
@@ -31,15 +36,38 @@
    "options": "Address"
   },
   {
-   "fieldname": "contact_details",
+   "fieldname": "address_and_contact_section",
+   "fieldtype": "Section Break",
+   "label": "Address and Contact "
+  },
+  {
+   "fieldname": "address_html",
+   "fieldtype": "HTML",
+   "label": "Address HTML"
+  },
+  {
+   "fieldname": "column_break_ebfcs",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "contact",
    "fieldtype": "Link",
-   "label": "Contact Details",
+   "label": "Contact",
    "options": "Contact"
+  },
+  {
+   "fieldname": "contact_html",
+   "fieldtype": "HTML",
+   "label": "Contact HTML"
+  },
+  {
+   "fieldname": "section_break_o9hib",
+   "fieldtype": "Section Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-06-08 12:16:05.467462",
+ "modified": "2023-06-15 18:19:31.853171",
  "modified_by": "Administrator",
  "module": "PyroCCS Tracking System",
  "name": "Equipment Owners",

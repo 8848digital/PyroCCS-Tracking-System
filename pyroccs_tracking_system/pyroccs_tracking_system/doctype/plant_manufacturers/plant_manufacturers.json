@@ -11,8 +11,13 @@
   "name_company",
   "short_name_manufacturer",
   "name_contact_person",
+  "address_and_contact_section",
   "address",
+  "address_html",
+  "column_break_udnqm",
   "contact_details",
+  "contact_html",
+  "section_break_grlji",
   "accreditation"
  ],
  "fields": [
@@ -48,11 +53,34 @@
    "fieldtype": "Link",
    "label": "Accreditation/Certificate/Permit",
    "options": "Accreditations"
+  },
+  {
+   "fieldname": "address_and_contact_section",
+   "fieldtype": "Section Break",
+   "label": "Address and Contact"
+  },
+  {
+   "fieldname": "column_break_udnqm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "address_html",
+   "fieldtype": "HTML",
+   "label": "Address HTML"
+  },
+  {
+   "fieldname": "contact_html",
+   "fieldtype": "HTML",
+   "label": "Contact HTML"
+  },
+  {
+   "fieldname": "section_break_grlji",
+   "fieldtype": "Section Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-06-15 17:23:22.088052",
+ "modified": "2023-06-15 18:15:31.216615",
  "modified_by": "Administrator",
  "module": "PyroCCS Tracking System",
  "name": "Plant Manufacturers",

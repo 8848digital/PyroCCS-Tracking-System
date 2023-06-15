@@ -67,9 +67,8 @@
   },
   {
    "fieldname": "current_plant_status",
-   "fieldtype": "Link",
-   "label": "Current Plant Status",
-   "options": "Plant Status Periods"
+   "fieldtype": "Data",
+   "label": "Current Plant Status"
   },
   {
    "fieldname": "type_of_plant_burning_fuel_used_on_site",
@@ -178,7 +177,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-06-15 17:25:35.523050",
+ "modified": "2023-06-15 17:40:06.733654",
  "modified_by": "Administrator",
  "module": "PyroCCS Tracking System",
  "name": "Plant Master",

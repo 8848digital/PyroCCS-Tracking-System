@@ -10,8 +10,13 @@
  "field_order": [
   "name_company",
   "name_contact_person",
+  "address_and_contact_section",
   "address",
-  "contact_details"
+  "address_html",
+  "column_break_8xxoe",
+  "contact",
+  "contact_html",
+  "section_break_qe4ud"
  ],
  "fields": [
   {
@@ -26,18 +31,43 @@
   },
   {
    "fieldname": "address",
-   "fieldtype": "Data",
-   "label": "Address"
+   "fieldtype": "Link",
+   "label": "Address",
+   "options": "Address"
   },
   {
-   "fieldname": "contact_details",
-   "fieldtype": "Data",
-   "label": "Contact Details"
+   "fieldname": "address_and_contact_section",
+   "fieldtype": "Section Break",
+   "label": "Address and Contact"
+  },
+  {
+   "fieldname": "address_html",
+   "fieldtype": "HTML",
+   "label": "Address HTML"
+  },
+  {
+   "fieldname": "column_break_8xxoe",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "contact",
+   "fieldtype": "Link",
+   "label": "Contact",
+   "options": "Contact"
+  },
+  {
+   "fieldname": "contact_html",
+   "fieldtype": "HTML",
+   "label": "Contact HTML"
+  },
+  {
+   "fieldname": "section_break_qe4ud",
+   "fieldtype": "Section Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-06-05 14:01:10.782562",
+ "modified": "2023-06-15 18:22:58.300277",
  "modified_by": "Administrator",
  "module": "PyroCCS Tracking System",
  "name": "C-Sink Managers",

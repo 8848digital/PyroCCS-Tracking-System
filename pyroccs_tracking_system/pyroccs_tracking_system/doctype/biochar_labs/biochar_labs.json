@@ -11,8 +11,13 @@
   "name_companyowner",
   "name_contact_person",
   "types_of_testing_available",
+  "address_and_contact_section",
   "address",
-  "contact_details",
+  "address_html",
+  "column_break_xdfxv",
+  "contact",
+  "contact_html",
+  "section_break_o9gca",
   "lab_documentation"
  ],
  "fields": [
@@ -34,23 +39,48 @@
   },
   {
    "fieldname": "address",
-   "fieldtype": "Small Text",
-   "label": "Address"
-  },
-  {
-   "fieldname": "contact_details",
-   "fieldtype": "Small Text",
-   "label": "Contact Details"
+   "fieldtype": "Link",
+   "label": "Address",
+   "options": "Address"
   },
   {
    "fieldname": "lab_documentation",
    "fieldtype": "Attach",
    "label": "Lab Documentation"
+  },
+  {
+   "fieldname": "address_and_contact_section",
+   "fieldtype": "Section Break",
+   "label": "Address and Contact"
+  },
+  {
+   "fieldname": "address_html",
+   "fieldtype": "HTML",
+   "label": "Address HTML"
+  },
+  {
+   "fieldname": "column_break_xdfxv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "contact",
+   "fieldtype": "Link",
+   "label": "Contact",
+   "options": "Contact"
+  },
+  {
+   "fieldname": "contact_html",
+   "fieldtype": "HTML",
+   "label": "Contact HTML"
+  },
+  {
+   "fieldname": "section_break_o9gca",
+   "fieldtype": "Section Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-06-06 13:13:46.970816",
+ "modified": "2023-06-15 18:25:09.051854",
  "modified_by": "Administrator",
  "module": "PyroCCS Tracking System",
  "name": "Biochar Labs",
