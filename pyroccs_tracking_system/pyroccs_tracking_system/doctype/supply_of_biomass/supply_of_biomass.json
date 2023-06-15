@@ -9,6 +9,7 @@
  "engine": "InnoDB",
  "field_order": [
   "plant_number",
+  "supplier",
   "supplier_name",
   "biomass_supply",
   "supply_source",
@@ -40,7 +41,8 @@
   "information_display_section",
   "available_biomass",
   "used_biomass",
-  "unused_biomass"
+  "unused_biomass",
+  "amended_from"
  ],
  "fields": [
   {
@@ -50,12 +52,6 @@
    "label": "Plant Number",
    "options": "List of Set-up Pyrolysis Plants",
    "reqd": 1
-  },
-  {
-   "fieldname": "supplier_name",
-   "fieldtype": "Link",
-   "label": "Supplier Name",
-   "options": "List of Biomass Suppliers"
   },
   {
    "fieldname": "biomass_supply",
@@ -122,24 +118,24 @@
   },
   {
    "fieldname": "picture_of_biomass",
-   "fieldtype": "Attach",
+   "fieldtype": "Attach Image",
    "label": "Picture of Biomass"
   },
   {
    "description": "kg",
    "fieldname": "trailer_weight_in",
-   "fieldtype": "Data",
+   "fieldtype": "Float",
    "label": "Trailer Weight In"
   },
   {
    "description": "kg",
    "fieldname": "trailer_weight_out",
-   "fieldtype": "Data",
+   "fieldtype": "Float",
    "label": "Trailer Weight Out"
   },
   {
    "fieldname": "total_weight_delivered_biomass",
-   "fieldtype": "Data",
+   "fieldtype": "Float",
    "label": "Total Weight Delivered Biomass"
   },
   {
@@ -179,7 +175,7 @@
   },
   {
    "fieldname": "average_moisture",
-   "fieldtype": "Data",
+   "fieldtype": "Percent",
    "label": "Average Moisture"
   },
   {
@@ -200,7 +196,7 @@
   },
   {
    "fieldname": "biomass_comments",
-   "fieldtype": "Text",
+   "fieldtype": "Small Text",
    "label": "Biomass Comments"
   },
   {
@@ -210,23 +206,44 @@
   },
   {
    "fieldname": "available_biomass",
-   "fieldtype": "Data",
+   "fieldtype": "Float",
    "label": "Available Biomass"
   },
   {
    "fieldname": "used_biomass",
-   "fieldtype": "Data",
+   "fieldtype": "Float",
    "label": "Used Biomass "
   },
   {
    "fieldname": "unused_biomass",
-   "fieldtype": "Data",
+   "fieldtype": "Float",
    "label": "Unused Biomass"
+  },
+  {
+   "fieldname": "supplier",
+   "fieldtype": "Link",
+   "label": "Supplier",
+   "options": "List of Biomass Suppliers"
+  },
+  {
+   "fieldname": "supplier_name",
+   "fieldtype": "Read Only",
+   "label": "Supplier Name"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Supply of Biomass",
+   "print_hide": 1,
+   "read_only": 1
   }
  ],
  "index_web_pages_for_search": 1,
+ "is_submittable": 1,
  "links": [],
- "modified": "2023-06-06 15:53:24.844739",
+ "modified": "2023-06-15 11:30:04.461058",
  "modified_by": "Administrator",
  "module": "PyroCCS Tracking System",
  "name": "Supply of Biomass",
