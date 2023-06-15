@@ -45,7 +45,7 @@
   {
    "fieldname": "plant_operator",
    "fieldtype": "Link",
-   "label": "Plant Operator",
+   "label": "Plant Operator/Asset Managers",
    "options": "List of Plant Operators"
   },
   {
@@ -178,7 +178,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-06-08 11:46:43.199876",
+ "modified": "2023-06-15 11:31:59.963092",
  "modified_by": "Administrator",
  "module": "PyroCCS Tracking System",
  "name": "List of Set-up Pyrolysis Plants",
