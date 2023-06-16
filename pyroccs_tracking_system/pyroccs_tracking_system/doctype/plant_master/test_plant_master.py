@@ -5,5 +5,5 @@
 from frappe.tests.utils import FrappeTestCase
 
 
-class TestListofSetupPyrolysisPlants(FrappeTestCase):
+class TestPlantMaster(FrappeTestCase):
 	pass
