@@ -4,5 +4,5 @@
 # import frappe
 from frappe.model.document import Document
 
-class ListofOneTimeEmissions(Document):
+class OneTimeEmissions(Document):
 	pass
