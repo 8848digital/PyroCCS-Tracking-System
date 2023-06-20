@@ -7,16 +7,6 @@
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
- "field_order": [
-  "name_of_one_time_emission",
-  "description_of_one_time_emission",
-  "emissions_category",
-  "from_renewable_resources",
-  "amount",
-  "unit",
-  "co2_conversion_rate",
-  "total_co2_equivalent"
- ],
  "fields": [
   {
    "fieldname": "name_of_one_time_emission",

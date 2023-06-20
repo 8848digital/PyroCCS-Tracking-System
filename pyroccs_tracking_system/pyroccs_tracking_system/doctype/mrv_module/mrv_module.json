@@ -7,21 +7,6 @@
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
- "field_order": [
-  "status_of_audit",
-  "type_of_audit",
-  "select_sequestration_bundle",
-  "details_of_bundle",
-  "select_carbon_standard",
-  "carbon_standard_registration_number",
-  "relevant_carbon_sequestration",
-  "further_deductions",
-  "addition_comments",
-  "auditor_picture_upload",
-  "auditor_comments_extra",
-  "auditor_documentation_upload",
-  "auditor_digital_signature_upload"
- ],
  "fields": [
   {
    "fieldname": "status_of_audit",

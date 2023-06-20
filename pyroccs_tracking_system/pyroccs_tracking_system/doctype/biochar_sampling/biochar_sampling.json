@@ -7,23 +7,6 @@
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
- "field_order": [
-  "plant_id",
-  "biochar_lab",
-  "column_break_fo8cc",
-  "result_status",
-  "biochar_type",
-  "section_break_zdoes",
-  "select_samples",
-  "section_break_va4oy",
-  "total_weight_of_sample_sent_in_kg",
-  "date_sent_for_sampling",
-  "results_received",
-  "column_break_4auzx",
-  "comments_on_testing",
-  "picture_of_sampling_process",
-  "upload_documentation"
- ],
  "fields": [
   {
    "fieldname": "plant_id",

@@ -5,5 +5,5 @@
 from frappe.tests.utils import FrappeTestCase
 
 
-class TestListofOneTimeEmissions(FrappeTestCase):
+class TestOneTimeEmissions(FrappeTestCase):
 	pass

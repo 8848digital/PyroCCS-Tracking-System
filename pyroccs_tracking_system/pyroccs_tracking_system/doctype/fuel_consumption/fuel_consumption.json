@@ -7,12 +7,6 @@
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
- "field_order": [
-  "assigned_plant_status",
-  "type_of_fuel_source",
-  "amount_of_fuel_used",
-  "documentation_upload"
- ],
  "fields": [
   {
    "fieldname": "assigned_plant_status",

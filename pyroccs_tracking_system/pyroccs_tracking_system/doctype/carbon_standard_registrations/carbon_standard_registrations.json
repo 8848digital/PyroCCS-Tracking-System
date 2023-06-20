@@ -7,14 +7,6 @@
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
- "field_order": [
-  "name_of_carbon_standard",
-  "registration_number",
-  "valid_from",
-  "valid_till",
-  "point_of_contact",
-  "comments"
- ],
  "fields": [
   {
    "fieldname": "name_of_carbon_standard",

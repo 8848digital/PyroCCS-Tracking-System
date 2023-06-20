@@ -7,17 +7,6 @@
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
- "field_order": [
-  "unique_name_of_biomass",
-  "categorization_of_biomass",
-  "species_of_biomass",
-  "biomass_modification_equipment_1",
-  "biomass_modification_equipment_2",
-  "accreditation",
-  "picture_of_biomass",
-  "upload_documentation",
-  "comments_on_biomass"
- ],
  "fields": [
   {
    "fieldname": "unique_name_of_biomass",

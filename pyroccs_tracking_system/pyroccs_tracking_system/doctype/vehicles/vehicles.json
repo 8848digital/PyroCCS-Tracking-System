@@ -7,21 +7,6 @@
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
- "field_order": [
-  "vehicle_owner",
-  "vehicle_manufacturer_name",
-  "vehicle_model_type",
-  "type_of_vehicle",
-  "number_plate",
-  "maximum_towing_capacity",
-  "emission_standard",
-  "type_of_fuel",
-  "fuel_consumption",
-  "co2_equivalent",
-  "relevant_one_time_carbon_emissions_for_vehicle_manufacturing",
-  "picture_of_vehicle",
-  "comments_on_vehicle"
- ],
  "fields": [
   {
    "fieldname": "vehicle_owner",

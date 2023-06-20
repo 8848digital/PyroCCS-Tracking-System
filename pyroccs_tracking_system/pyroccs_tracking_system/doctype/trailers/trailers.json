@@ -7,16 +7,6 @@
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
- "field_order": [
-  "trailer_owner",
-  "type_of_trailer",
-  "number_plate",
-  "empty_weight_of_trailer",
-  "permissible_total_carrying_capacity_trailer",
-  "picture_of_trailer",
-  "carbon_emissions_for_trailer_manufacturing",
-  "comment_on_trailer"
- ],
  "fields": [
   {
    "fieldname": "trailer_owner",

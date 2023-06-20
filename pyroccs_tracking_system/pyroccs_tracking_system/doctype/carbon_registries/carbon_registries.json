@@ -7,18 +7,6 @@
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
- "field_order": [
-  "name_of_registry",
-  "short_name_of_registry",
-  "address_contact_details_section",
-  "address",
-  "address_html",
-  "column_break_o4mj5",
-  "contact",
-  "contact_html",
-  "section_break_txt4h",
-  "comments"
- ],
  "fields": [
   {
    "fieldname": "name_of_registry",
