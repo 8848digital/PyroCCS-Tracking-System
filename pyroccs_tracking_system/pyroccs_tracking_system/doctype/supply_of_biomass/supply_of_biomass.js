@@ -3,7 +3,7 @@
 
 frappe.ui.form.on('Supply of Biomass', {
 	refresh: function(frm) {
-		
+		console.log("Script Load")
 	},
 	biomass_supply: function(frm) {
 	// show supply source if "Select Source"
