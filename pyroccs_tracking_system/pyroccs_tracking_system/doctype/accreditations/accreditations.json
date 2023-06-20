@@ -7,15 +7,6 @@
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
- "field_order": [
-  "name_of_accreditation",
-  "type",
-  "external_document_number",
-  "issuing_authority",
-  "description",
-  "valid_from",
-  "valid_till"
- ],
  "fields": [
   {
    "fieldname": "name_of_accreditation",

@@ -7,18 +7,6 @@
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
- "field_order": [
-  "name_company",
-  "name_contact_person",
-  "address_and_contact_section",
-  "address",
-  "address_html",
-  "column_break_5yqej",
-  "contact",
-  "contact_html",
-  "section_break_9yk4z",
-  "permit"
- ],
  "fields": [
   {
    "fieldname": "name_company",

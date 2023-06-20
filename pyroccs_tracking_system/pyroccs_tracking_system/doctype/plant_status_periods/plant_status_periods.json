@@ -6,23 +6,6 @@
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
- "field_order": [
-  "plant_id",
-  "plant_status",
-  "estimated_duration",
-  "column_break_68xez",
-  "start_validity_of_this_status",
-  "end_validity_of_this_status",
-  "section_break_y60xm",
-  "pyrolysis_batches",
-  "fuel_consumption_logging",
-  "section_break_dfov4",
-  "repair_logging",
-  "pictures_on_status",
-  "column_break_xnet3",
-  "comment_on_status",
-  "documentation_upload"
- ],
  "fields": [
   {
    "fieldname": "plant_id",

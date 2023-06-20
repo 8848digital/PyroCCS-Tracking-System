@@ -6,18 +6,6 @@
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
- "field_order": [
-  "fuel_name",
-  "type_of_fuel",
-  "standard_measurement_unit",
-  "renewable_sustainable_fuel_source",
-  "type_of_renewable_sustainable_fuel_source",
-  "column_break_cinmg",
-  "co2_equivalent",
-  "comment_on_type_of_fuel",
-  "picture_upload",
-  "upload_documentation"
- ],
  "fields": [
   {
    "fieldname": "fuel_name",

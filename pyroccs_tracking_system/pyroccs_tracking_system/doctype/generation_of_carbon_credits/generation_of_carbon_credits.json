@@ -7,16 +7,6 @@
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
- "field_order": [
-  "status_of_carbon_credit_generation",
-  "select_carbon_standard_registration",
-  "select_carbon_registry_registration",
-  "remitting_data",
-  "select_audited_sequestration_bundle",
-  "one_time_emissions_retirement",
-  "comments",
-  "carbon_credit_sales_information"
- ],
  "fields": [
   {
    "fieldname": "status_of_carbon_credit_generation",

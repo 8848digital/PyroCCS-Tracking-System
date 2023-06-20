@@ -6,14 +6,6 @@
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
- "field_order": [
-  "pyrolysis_unique_identifier",
-  "pyrolysis_status",
-  "pyrolysis_duration",
-  "pyrolysis_complete_date",
-  "weight_of_biomass_in",
-  "weight_of_biochar_out"
- ],
  "fields": [
   {
    "fieldname": "pyrolysis_unique_identifier",

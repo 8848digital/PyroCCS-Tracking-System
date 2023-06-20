@@ -5,12 +5,6 @@
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
- "field_order": [
-  "when",
-  "reactor_temperature",
-  "date_and_time_of_measurement",
-  "picture_of_thermostat"
- ],
  "fields": [
   {
    "fieldname": "when",

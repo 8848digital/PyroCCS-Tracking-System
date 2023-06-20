@@ -7,14 +7,6 @@
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
- "field_order": [
-  "name_of_registry",
-  "registration_number",
-  "valid_from",
-  "valid_till",
-  "individual_api_key",
-  "point_of_contact"
- ],
  "fields": [
   {
    "fieldname": "name_of_registry",

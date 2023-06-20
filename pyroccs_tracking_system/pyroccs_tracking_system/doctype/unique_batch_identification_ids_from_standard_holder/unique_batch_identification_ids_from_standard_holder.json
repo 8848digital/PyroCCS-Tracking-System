@@ -6,16 +6,6 @@
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
- "field_order": [
-  "biochar_standard",
-  "unique_batch_identification_id_from_standard_holder",
-  "from_date",
-  "to_date",
-  "column_break_dbrlt",
-  "validity",
-  "valid_invalid",
-  "upload_documentation"
- ],
  "fields": [
   {
    "fieldname": "biochar_standard",

@@ -7,15 +7,6 @@
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
- "field_order": [
-  "owner_of_c_sink_location",
-  "type_of_carbon_sink",
-  "short_name_of_c_sink_location",
-  "official_address",
-  "coordinates_of_sequestration_location",
-  "picture_of_sequestration_location",
-  "documentation_upload"
- ],
  "fields": [
   {
    "fieldname": "owner_of_c_sink_location",

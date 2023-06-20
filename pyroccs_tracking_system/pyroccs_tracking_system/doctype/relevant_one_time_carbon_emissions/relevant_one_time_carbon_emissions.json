@@ -5,9 +5,6 @@
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
- "field_order": [
-  "one_time_carbon_emissions"
- ],
  "fields": [
   {
    "fieldname": "one_time_carbon_emissions",

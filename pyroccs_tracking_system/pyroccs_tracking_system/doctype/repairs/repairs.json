@@ -7,13 +7,6 @@
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
- "field_order": [
-  "short_description_of_repair",
-  "full_elaboration_on_repair",
-  "relevant_one_time_carbon_emissions",
-  "pictures_of_repair",
-  "upload_documentation"
- ],
  "fields": [
   {
    "fieldname": "short_description_of_repair",

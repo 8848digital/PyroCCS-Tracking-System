@@ -7,14 +7,6 @@
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
- "field_order": [
-  "owner_of_the_biomass_location",
-  "name_of_the_biomass_location",
-  "official_address",
-  "coordinates_of_biomass_location",
-  "photo_of_biomass_location",
-  "html"
- ],
  "fields": [
   {
    "fieldname": "owner_of_the_biomass_location",

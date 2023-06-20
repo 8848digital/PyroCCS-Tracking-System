@@ -7,10 +7,6 @@
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
- "field_order": [
-  "name_of_sequesterer",
-  "sequestration_location"
- ],
  "fields": [
   {
    "fieldname": "name_of_sequesterer",

@@ -7,16 +7,6 @@
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
- "field_order": [
-  "assigned_plant",
-  "pot_name",
-  "status",
-  "date_of_manufacturing",
-  "column_break_5mhme",
-  "pot_empty_weight_in_kg",
-  "documentation_upload",
-  "comments_on_pots"
- ],
  "fields": [
   {
    "fieldname": "assigned_plant",

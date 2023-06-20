@@ -7,19 +7,6 @@
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
- "field_order": [
-  "name_companyowner",
-  "name_contact_person",
-  "types_of_testing_available",
-  "address_and_contact_section",
-  "address",
-  "address_html",
-  "column_break_xdfxv",
-  "contact",
-  "contact_html",
-  "section_break_o9gca",
-  "lab_documentation"
- ],
  "fields": [
   {
    "fieldname": "name_companyowner",

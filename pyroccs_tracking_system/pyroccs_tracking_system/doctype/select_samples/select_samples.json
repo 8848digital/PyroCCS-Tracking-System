@@ -5,10 +5,6 @@
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
- "field_order": [
-  "unique_sample_number",
-  "date_end_of_pyrolysis"
- ],
  "fields": [
   {
    "fieldname": "unique_sample_number",

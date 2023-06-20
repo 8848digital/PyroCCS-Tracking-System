@@ -7,20 +7,6 @@
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
- "field_order": [
-  "equipment_owner",
-  "equipment_manufacturer",
-  "model_type",
-  "type_of_modification",
-  "type_of_equipment",
-  "power_requirement",
-  "energy_consumption",
-  "energy_units",
-  "co2_equivalent",
-  "relevant_one_time_carbon_emissions",
-  "accreditation",
-  "picture_of_equipment"
- ],
  "fields": [
   {
    "fieldname": "equipment_owner",
