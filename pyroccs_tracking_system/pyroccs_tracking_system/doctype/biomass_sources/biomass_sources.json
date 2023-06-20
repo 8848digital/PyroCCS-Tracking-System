@@ -7,6 +7,17 @@
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
+ "field_order": [
+  "unique_name_of_biomass",
+  "categorization_of_biomass",
+  "species_of_biomass",
+  "biomass_modification_equipment_1",
+  "biomass_modification_equipment_2",
+  "accreditation",
+  "picture_of_biomass",
+  "upload_documentation",
+  "comments_on_biomass"
+ ],
  "fields": [
   {
    "fieldname": "unique_name_of_biomass",
@@ -24,7 +35,7 @@
    "fieldname": "species_of_biomass",
    "fieldtype": "Select",
    "label": "Species of Biomass",
-   "options": "Paddy/Rice Straw\nCoconut Shell\nCashew Shell\nBamboo\nWood A\nWood B\nWood C\nWood D\nMore to be identified"
+   "options": "Paddy/Rice Straw\nCoconut Shell\nCashew Shell\nBamboo\nWood A\nWood B\nWood C\nWood D"
   },
   {
    "fieldname": "biomass_modification_equipment_1",
@@ -63,7 +74,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-06-15 17:23:22.885579",
+ "modified": "2023-06-20 18:28:09.994222",
  "modified_by": "Administrator",
  "module": "PyroCCS Tracking System",
  "name": "Biomass Sources",
