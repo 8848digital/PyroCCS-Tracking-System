@@ -34,11 +34,13 @@ frappe.ui.form.on('Supply of Biomass', {
 			frm.set_df_property('name_of_vehicle', 'reqd', 1)
 			frm.set_df_property('name_of_trailer', 'hidden', 0)
 			frm.set_df_property('name_of_vehicle', 'hidden', 0)
+			frm.set_value('relevant_distance_to_biomass_source','')
 		} else {
 			frm.set_df_property('name_of_trailer', 'reqd', 0)
 			frm.set_df_property('name_of_vehicle', 'reqd', 0)
 			frm.set_df_property('name_of_trailer', 'hidden', 1)
 			frm.set_df_property('name_of_vehicle', 'hidden', 1)
+			frm.set_value('relevant_distance_to_biomass_source','No Carbon Emissions')
 		}
 	}
 });

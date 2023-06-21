@@ -67,7 +67,7 @@
   },
   {
    "fieldname": "relevant_distance_to_biomass_source",
-   "fieldtype": "Data",
+   "fieldtype": "Read Only",
    "label": "Relevant Distance to Biomass Source"
   },
   {
@@ -136,19 +136,14 @@
   {
    "fieldname": "average_moisture",
    "fieldtype": "Percent",
-   "label": "Average Moisture"
+   "label": "Average Moisture",
+   "read_only": 1
   },
   {
    "default": "0",
    "fieldname": "moisture_too_high",
    "fieldtype": "Check",
    "label": "Moisture Too High"
-  },
-  {
-   "fieldname": "alert",
-   "fieldtype": "Small Text",
-   "label": "Alert",
-   "options": "Repeat and Update Moisture Measurement\nafter drying the Biomass"
   },
   {
    "fieldname": "section_break_hetcd",
@@ -203,7 +198,7 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2023-06-21 16:10:02.255125",
+ "modified": "2023-06-21 16:57:02.844567",
  "modified_by": "Administrator",
  "module": "PyroCCS Tracking System",
  "name": "Supply of Biomass",

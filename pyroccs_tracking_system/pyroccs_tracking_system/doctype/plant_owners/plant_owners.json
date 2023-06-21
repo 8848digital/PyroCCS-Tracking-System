@@ -7,6 +7,15 @@
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
+ "field_order": [
+  "name_company",
+  "name_contact_person",
+  "address_and_contact_section",
+  "address_html",
+  "column_break_jnkwx",
+  "contact_html",
+  "section_break_4iwyn"
+ ],
  "fields": [
   {
    "fieldname": "name_company",
@@ -17,12 +26,6 @@
    "fieldname": "name_contact_person",
    "fieldtype": "Data",
    "label": "Name Contact Person"
-  },
-  {
-   "fieldname": "address",
-   "fieldtype": "Link",
-   "label": "Address",
-   "options": "Address"
   },
   {
    "fieldname": "address_and_contact_section",
@@ -39,12 +42,6 @@
    "fieldtype": "Column Break"
   },
   {
-   "fieldname": "contact",
-   "fieldtype": "Link",
-   "label": "Contact",
-   "options": "Contact"
-  },
-  {
    "fieldname": "contact_html",
    "fieldtype": "HTML",
    "label": "Contact HTML"
@@ -56,7 +53,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-06-15 18:17:48.796052",
+ "modified": "2023-06-21 17:07:31.583878",
  "modified_by": "Administrator",
  "module": "PyroCCS Tracking System",
  "name": "Plant Owners",
