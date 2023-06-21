@@ -10,6 +10,13 @@ frappe.ui.form.on('Supply of Biomass', {
 			frm.set_df_property("supply_source","hidden", 1) 
 			frm.set_df_property("distance_to_plant","hidden", 1)
 		}
+		if (frm.doc.transportation_type == "Vehicle with Trailer") {
+			frm.set_df_property('name_of_trailer', 'reqd', 1)
+			frm.set_df_property('name_of_vehicle', 'reqd', 1)
+		} else {
+			frm.set_df_property('name_of_trailer', 'hidden', 1)
+			frm.set_df_property('name_of_vehicle', 'hidden', 1)
+		}
 	},
 	biomass_supply: function(frm) {
 	// show supply source if "Select Source"
@@ -19,6 +26,21 @@ frappe.ui.form.on('Supply of Biomass', {
 		} else {
 			frm.set_df_property("supply_source","hidden", 1) 
 			frm.set_df_property("distance_to_plant","hidden", 1)
+		}
+	},
+	transportation_type: function(frm) {
+		if (frm.doc.transportation_type == "Vehicle with Trailer") {
+			frm.set_df_property('name_of_trailer', 'reqd', 1)
+			frm.set_df_property('name_of_vehicle', 'reqd', 1)
+			frm.set_df_property('name_of_trailer', 'hidden', 0)
+			frm.set_df_property('name_of_vehicle', 'hidden', 0)
+			frm.set_value('relevant_distance_to_biomass_source','')
+		} else {
+			frm.set_df_property('name_of_trailer', 'reqd', 0)
+			frm.set_df_property('name_of_vehicle', 'reqd', 0)
+			frm.set_df_property('name_of_trailer', 'hidden', 1)
+			frm.set_df_property('name_of_vehicle', 'hidden', 1)
+			frm.set_value('relevant_distance_to_biomass_source','No Carbon Emissions')
 		}
 	}
 });
