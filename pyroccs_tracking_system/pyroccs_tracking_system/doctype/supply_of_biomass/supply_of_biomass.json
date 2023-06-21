@@ -40,7 +40,8 @@
    "fieldname": "transportation_type",
    "fieldtype": "Select",
    "label": "Transportation Type",
-   "options": "Vehicle with Trailer\nManual"
+   "options": "\nVehicle with Trailer\nManual",
+   "reqd": 1
   },
   {
    "fieldname": "vehicle_trailer_details_section",
@@ -202,7 +203,7 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2023-06-20 18:50:33.518580",
+ "modified": "2023-06-21 16:10:02.255125",
  "modified_by": "Administrator",
  "module": "PyroCCS Tracking System",
  "name": "Supply of Biomass",
