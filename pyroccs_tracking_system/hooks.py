@@ -11,7 +11,7 @@ app_license = "MIT"
 # ------------------
 # global
 # map= "public/js/doc_map.js"
-
+fixtures = ["Custom Field"]
 # include js, css files in header of desk.html
 # app_include_css = "/assets/pyroccs_tracking_system/css/pyroccs_tracking_system.css"
 # app_include_js = "/assets/pyroccs_tracking_system/js/map.js"

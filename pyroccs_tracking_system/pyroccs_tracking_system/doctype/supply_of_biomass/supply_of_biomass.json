@@ -60,10 +60,6 @@
    "options": "Vehicles"
   },
   {
-   "fieldname": "section_break_i7wh0",
-   "fieldtype": "Section Break"
-  },
-  {
    "fieldname": "driver_name",
    "fieldtype": "Data",
    "label": "Driver Name"
@@ -206,7 +202,7 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2023-06-15 17:22:21.339225",
+ "modified": "2023-06-20 18:50:33.518580",
  "modified_by": "Administrator",
  "module": "PyroCCS Tracking System",
  "name": "Supply of Biomass",
